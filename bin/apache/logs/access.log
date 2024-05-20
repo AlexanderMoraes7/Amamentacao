@@ -1753,3 +1753,12 @@
 ::1 - - [20/May/2024:19:35:15 -0300] "GET /favicon.ico HTTP/1.1" 404 308
 ::1 - - [20/May/2024:19:35:27 -0300] "GET /View/cadastro.html HTTP/1.1" 304 -
 ::1 - - [20/May/2024:19:35:27 -0300] "GET /favicon.ico HTTP/1.1" 404 308
+::1 - - [20/May/2024:19:50:33 -0300] "GET /mysql/ HTTP/1.1" 200 3073
+::1 - - [20/May/2024:19:50:41 -0300] "POST /mysql/index.php HTTP/1.1" 200 3130
+::1 - - [20/May/2024:19:50:52 -0300] "POST /mysql/index.php HTTP/1.1" 200 3132
+::1 - - [20/May/2024:19:53:01 -0300] "POST /mysql/index.php HTTP/1.1" 200 3130
+::1 - - [20/May/2024:19:53:04 -0300] "POST /mysql/index.php HTTP/1.1" 200 3130
+::1 - - [20/May/2024:19:53:16 -0300] "POST /mysql/index.php HTTP/1.1" 200 3130
+::1 - - [20/May/2024:19:53:18 -0300] "POST /mysql/index.php HTTP/1.1" 200 3130
+::1 - - [20/May/2024:19:55:29 -0300] "GET / HTTP/1.1" 302 -
+::1 - - [20/May/2024:19:55:30 -0300] "GET /favicon.ico HTTP/1.1" 404 308
