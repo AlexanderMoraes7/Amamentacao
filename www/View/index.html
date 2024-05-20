@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Apoio á amamentação</title>
+</head>
+
+<body>
+        <img src="https://raw.githubusercontent.com/AlexanderMoraes7/Amamentacao/main/images/m%C3%A3e_a_amamentar_seu_filho.jpg" alt="Imagem de uma mulher amamentando seu filho, recém nascido.">
+        <div class="Caixa">
+            <form name="usuario" method="post" action="../Controller/comandos.php"></form>
+                <div class="Input1">
+                    <i class="fa-solid fa-circle-user fa-xl"></i>
+                    <input type="text" name="email" placeholder="E-mail" method="GET" autofocus alt="Digite seu E-mail" autocomplete="email">
+                </div>
+                <div class="Input2">
+                    <i class="fa-solid fa-lock fa-xl"></i>
+                    <input type="password" name="senha" placeholder="Senha" method="GET" alt="Digite sua senha" autocomplete="senha">
+                </div>
+                <div class="Text1">
+                    <div>
+                        <input type="checkbox" name="lembrar" id="lembrar"><label for="lembrar">Lembre-se dessa conta</label>
+                    </div>
+                <div>
+                    <a href="esqueceu.html">Esqueceu a senha?</a>
+                </div>
+                </div>
+                    <!--
+                        botão para submeter ao formulário de login no sistema, deverá contactar a api de login e retornar
+                        o acesso ao sistema ou não
+                    -->
+                <div class="Login">
+                    <button type="submit" value="Login">Login</button>
+                </div>
+            </form>
+            <div class="Text2">
+                <div>
+                    <label>Não possui conta?</label>
+                </div>
+                <div>
+                    <a href="cadastro.html">Crie aqui</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
