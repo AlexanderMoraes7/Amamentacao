@@ -227,3 +227,53 @@
 [Mon May 20 18:57:51.029155 2024] [ssl:warn] [pid 9196:tid 692] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Mon May 20 18:57:51.172755 2024] [mpm_winnt:notice] [pid 9196:tid 692] AH00354: Child: Starting 64 worker threads.
 [Mon May 20 19:03:20.667838 2024] [mpm_winnt:crit] [pid 9196:tid 692] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon May 20 19:10:29.984059 2024] [ssl:warn] [pid 14044:tid 784] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:10:29.984059 2024] [ssl:warn] [pid 14044:tid 784] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:10:30.046560 2024] [core:warn] [pid 14044:tid 784] AH00098: pid file C:/Python/www/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 19:10:30.249689 2024] [ssl:warn] [pid 14044:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:10:30.249689 2024] [ssl:warn] [pid 14044:tid 784] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:10:30.249689 2024] [ssl:warn] [pid 14044:tid 784] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:10:31.093434 2024] [mpm_winnt:notice] [pid 14044:tid 784] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Mon May 20 19:10:31.093434 2024] [mpm_winnt:notice] [pid 14044:tid 784] AH00456: Server built: Jan 28 2016 09:58:25
+[Mon May 20 19:10:31.093434 2024] [core:notice] [pid 14044:tid 784] AH00094: Command line: 'C:\\Python\\www\\bin\\apache\\bin\\httpd.exe -d C:/Python/www/bin/apache -f C:\\Python\\www\\bin\\apache\\conf\\httpd.conf'
+[Mon May 20 19:10:31.093434 2024] [mpm_winnt:notice] [pid 14044:tid 784] AH00418: Parent: Created child process 15244
+[Mon May 20 19:10:32.968449 2024] [ssl:warn] [pid 15244:tid 680] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:10:32.968449 2024] [ssl:warn] [pid 15244:tid 680] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:10:33.218434 2024] [ssl:warn] [pid 15244:tid 680] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:10:33.218434 2024] [ssl:warn] [pid 15244:tid 680] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:10:33.218434 2024] [ssl:warn] [pid 15244:tid 680] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:10:33.280934 2024] [mpm_winnt:notice] [pid 15244:tid 680] AH00354: Child: Starting 64 worker threads.
+[Mon May 20 19:26:59.027587 2024] [mpm_winnt:crit] [pid 15244:tid 680] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon May 20 19:33:23.418008 2024] [ssl:warn] [pid 4656:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:33:23.418008 2024] [ssl:warn] [pid 4656:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:33:23.480500 2024] [core:warn] [pid 4656:tid 652] AH00098: pid file C:/Python/www/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 19:33:23.652373 2024] [ssl:warn] [pid 4656:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:33:23.668004 2024] [ssl:warn] [pid 4656:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:33:23.668004 2024] [ssl:warn] [pid 4656:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:33:24.402384 2024] [mpm_winnt:notice] [pid 4656:tid 652] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Mon May 20 19:33:24.402384 2024] [mpm_winnt:notice] [pid 4656:tid 652] AH00456: Server built: Jan 28 2016 09:58:25
+[Mon May 20 19:33:24.402384 2024] [core:notice] [pid 4656:tid 652] AH00094: Command line: 'C:\\Python\\www\\bin\\apache\\bin\\httpd.exe -d C:/Python/www/bin/apache -f C:\\Python\\www\\bin\\apache\\conf\\httpd.conf'
+[Mon May 20 19:33:24.417998 2024] [mpm_winnt:notice] [pid 4656:tid 652] AH00418: Parent: Created child process 4940
+[Mon May 20 19:33:26.089873 2024] [ssl:warn] [pid 4940:tid 492] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:33:26.089873 2024] [ssl:warn] [pid 4940:tid 492] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:33:26.277368 2024] [ssl:warn] [pid 4940:tid 492] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:33:26.277368 2024] [ssl:warn] [pid 4940:tid 492] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:33:26.277368 2024] [ssl:warn] [pid 4940:tid 492] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:33:26.324249 2024] [mpm_winnt:notice] [pid 4940:tid 492] AH00354: Child: Starting 64 worker threads.
+[Mon May 20 19:34:15.844509 2024] [mpm_winnt:crit] [pid 4940:tid 492] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon May 20 19:34:30.280455 2024] [ssl:warn] [pid 5060:tid 660] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:34:30.280455 2024] [ssl:warn] [pid 5060:tid 660] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:34:30.327330 2024] [core:warn] [pid 5060:tid 660] AH00098: pid file C:/Python/www/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 19:34:30.467962 2024] [ssl:warn] [pid 5060:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:34:30.467962 2024] [ssl:warn] [pid 5060:tid 660] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:34:30.467962 2024] [ssl:warn] [pid 5060:tid 660] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:34:30.514841 2024] [mpm_winnt:notice] [pid 5060:tid 660] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Mon May 20 19:34:30.514841 2024] [mpm_winnt:notice] [pid 5060:tid 660] AH00456: Server built: Jan 28 2016 09:58:25
+[Mon May 20 19:34:30.514841 2024] [core:notice] [pid 5060:tid 660] AH00094: Command line: 'C:\\Python\\www\\bin\\apache\\bin\\httpd.exe -d C:/Python/www/bin/apache -f C:\\Python\\www\\bin\\apache\\conf\\httpd.conf'
+[Mon May 20 19:34:30.530459 2024] [mpm_winnt:notice] [pid 5060:tid 660] AH00418: Parent: Created child process 1668
+[Mon May 20 19:34:32.014829 2024] [ssl:warn] [pid 1668:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:34:32.014829 2024] [ssl:warn] [pid 1668:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:34:32.186708 2024] [ssl:warn] [pid 1668:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 19:34:32.186708 2024] [ssl:warn] [pid 1668:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 20 19:34:32.186708 2024] [ssl:warn] [pid 1668:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 20 19:34:32.233583 2024] [mpm_winnt:notice] [pid 1668:tid 540] AH00354: Child: Starting 64 worker threads.
