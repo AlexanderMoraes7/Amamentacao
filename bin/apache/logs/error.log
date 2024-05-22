@@ -308,3 +308,292 @@
 [Tue May 21 19:42:24.866574 2024] [mpm_winnt:notice] [pid 5980:tid 764] AH00418: Parent: Created child process 6456
 [Tue May 21 19:42:26.804063 2024] [ssl:warn] [pid 6456:tid 844] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Tue May 21 19:42:26.804063 2024] [ssl:warn] [pid 6456:tid 844] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 21 19:42:27.054062 2024] [ssl:warn] [pid 6456:tid 844] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 21 19:42:27.054062 2024] [ssl:warn] [pid 6456:tid 844] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue May 21 19:42:27.054062 2024] [ssl:warn] [pid 6456:tid 844] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 21 19:42:27.116560 2024] [mpm_winnt:notice] [pid 6456:tid 844] AH00354: Child: Starting 64 worker threads.
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:26.895446 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:29.389914 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:29.389914 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:29.389914 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:29.390920 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:29.390920 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:29.390920 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:29.841577 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:29.841577 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:29.841577 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:29.842576 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:29.842576 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:29.842576 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.078539 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:30.078539 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.078539 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.079541 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:30.079541 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.079541 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.308907 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.525243 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:22:30.525243 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.525243 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:22:30.525243 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:22:30.526228 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP Stack trace:
+[Tue May 21 20:22:30.526228 2024] [:error] [pid 6456:tid 1572] [client ::1:54023] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:09.887504 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:10.591664 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:10.591664 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:10.592669 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:10.592669 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:10.592669 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:10.592669 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:10.802949 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.064194 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.282423 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.501029 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.717487 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.923192 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:11.923192 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.923192 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:11.924186 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:11.924186 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:11.924186 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: email in C:\\Python\\www\\www\\View\\index.php on line 2
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\View\\index.php on line 3
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP Stack trace:
+[Tue May 21 20:24:12.130840 2024] [:error] [pid 6456:tid 1572] [client ::1:54066] PHP   1. {main}() C:\\Python\\www\\www\\View\\index.php:0
+[Tue May 21 20:27:07.259676 2024] [:error] [pid 6456:tid 1572] [client ::1:54126] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:07.259676 2024] [:error] [pid 6456:tid 1572] [client ::1:54126] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:07.259676 2024] [:error] [pid 6456:tid 1572] [client ::1:54126] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:14.410026 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:14.410026 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:14.410026 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:15.475816 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:15.475816 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:15.476823 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:16.633676 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:16.633676 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:16.633676 2024] [:error] [pid 6456:tid 1572] [client ::1:54144] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:30.050996 2024] [:error] [pid 6456:tid 1572] [client ::1:54154] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:30.051737 2024] [:error] [pid 6456:tid 1572] [client ::1:54154] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:30.051737 2024] [:error] [pid 6456:tid 1572] [client ::1:54154] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:36.341148 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:27:36.341148 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:27:36.341148 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:38.066199 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:38.070203 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:27:38.070203 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:38.070671 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:39.471271 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:40.917249 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:27:40.917249 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:40.917249 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:40.917249 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:27:40.918248 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:40.918248 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:27:40.921248 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:27:40.921248 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP Stack trace:
+[Tue May 21 20:27:40.921248 2024] [:error] [pid 6456:tid 1572] [client ::1:54157] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.050635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:00.050635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.050635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.050635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:00.051635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.051635 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.054637 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:00.054637 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.054637 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.458506 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.461504 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:00.461504 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.461504 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.695616 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.700622 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:00.700622 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.700622 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.895970 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:00.900963 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:00.900963 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:00.900963 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.104801 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.109799 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:01.109799 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.109799 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.284434 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.285435 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:01.285435 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP Stack trace:
+[Tue May 21 20:28:01.285435 2024] [:error] [pid 6456:tid 1572] [client ::1:54170] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.489210 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:01.490214 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.490214 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.490214 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:01.490214 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.490214 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.491207 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:01.491207 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.491207 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.672274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.674274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:01.674274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.674274 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.845497 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:01.845497 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.846494 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.846494 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:01.846494 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.846494 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:01.847495 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:01.847495 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:01.847495 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.043642 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.044633 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:02.044633 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.044633 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: email in C:\\Python\\www\\www\\Controller\\comandos.php on line 6
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\comandos.php on line 7
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.217100 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:02.218097 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18
+[Tue May 21 20:28:02.218097 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP Stack trace:
+[Tue May 21 20:28:02.218097 2024] [:error] [pid 6456:tid 1588] [client ::1:54177] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0
+[Tue May 21 20:28:17.737549 2024] [:error] [pid 6456:tid 1588] [client ::1:54192] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:28:17.737549 2024] [:error] [pid 6456:tid 1588] [client ::1:54192] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:28:17.737549 2024] [:error] [pid 6456:tid 1588] [client ::1:54192] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:29:12.667258 2024] [:error] [pid 6456:tid 1588] [client ::1:54210] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:29:12.667258 2024] [:error] [pid 6456:tid 1588] [client ::1:54210] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:29:12.667258 2024] [:error] [pid 6456:tid 1588] [client ::1:54210] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP Warning:  PDO::exec() expects exactly 1 parameter, 5 given in C:\\Python\\www\\www\\Controller\\comandos.php on line 14, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP   2. PDO->exec() C:\\Python\\www\\www\\Controller\\comandos.php:14, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 18, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:31:06.406351 2024] [:error] [pid 6456:tid 1588] [client ::1:54247] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP Warning:  PDO::exec() expects exactly 1 parameter, 5 given in C:\\Python\\www\\www\\Controller\\comandos.php on line 15, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP   2. PDO->exec() C:\\Python\\www\\www\\Controller\\comandos.php:15, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 19, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:32:32.569981 2024] [:error] [pid 6456:tid 1588] [client ::1:54298] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP Warning:  PDO::exec() expects exactly 1 parameter, 5 given in C:\\Python\\www\\www\\Controller\\comandos.php on line 15, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP   2. PDO->exec() C:\\Python\\www\\www\\Controller\\comandos.php:15, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 19, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:32:45.086756 2024] [:error] [pid 6456:tid 1588] [client ::1:54303] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:34:29.637560 2024] [:error] [pid 6456:tid 1588] [client ::1:54348] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 19, referer: http://localhost/View/index.php
+[Tue May 21 20:34:29.637560 2024] [:error] [pid 6456:tid 1588] [client ::1:54348] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:34:29.637560 2024] [:error] [pid 6456:tid 1588] [client ::1:54348] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:45:15.897869 2024] [:error] [pid 6456:tid 1588] [client ::1:54596] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 16, referer: http://localhost/View/index.php
+[Tue May 21 20:45:15.897869 2024] [:error] [pid 6456:tid 1588] [client ::1:54596] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:45:15.897869 2024] [:error] [pid 6456:tid 1588] [client ::1:54596] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:46:17.139227 2024] [:error] [pid 6456:tid 1588] [client ::1:54617] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Python\\www\\www\\Controller\\comandos.php on line 16, referer: http://localhost/View/index.php
+[Tue May 21 20:46:17.139227 2024] [:error] [pid 6456:tid 1588] [client ::1:54617] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:46:17.139227 2024] [:error] [pid 6456:tid 1588] [client ::1:54617] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:56:01.123219 2024] [:error] [pid 6456:tid 1588] [client ::1:54933] PHP Notice:  Undefined variable: unit1 in C:\\Python\\www\\www\\Controller\\comandos.php on line 10, referer: http://localhost/View/index.php
+[Tue May 21 20:56:01.123219 2024] [:error] [pid 6456:tid 1588] [client ::1:54933] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:56:01.123219 2024] [:error] [pid 6456:tid 1588] [client ::1:54933] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 20:56:21.511650 2024] [:error] [pid 6456:tid 1588] [client ::1:54953] PHP Notice:  Undefined variable: unit1 in C:\\Python\\www\\www\\Controller\\comandos.php on line 10, referer: http://localhost/View/index.php
+[Tue May 21 20:56:21.511650 2024] [:error] [pid 6456:tid 1588] [client ::1:54953] PHP Stack trace:, referer: http://localhost/View/index.php
+[Tue May 21 20:56:21.511650 2024] [:error] [pid 6456:tid 1588] [client ::1:54953] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\comandos.php:0, referer: http://localhost/View/index.php
+[Tue May 21 21:50:31.025527 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\unClasseSql.php on line 7, referer: http://localhost/View/cadastro.html
+[Tue May 21 21:50:31.025527 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP Stack trace:, referer: http://localhost/View/cadastro.html
+[Tue May 21 21:50:31.025527 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\unClasseSql.php:0, referer: http://localhost/View/cadastro.html
+[Tue May 21 21:50:35.285632 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP Notice:  Undefined index: senha in C:\\Python\\www\\www\\Controller\\unClasseSql.php on line 7, referer: http://localhost/View/cadastro.html
+[Tue May 21 21:50:35.285632 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP Stack trace:, referer: http://localhost/View/cadastro.html
+[Tue May 21 21:50:35.285632 2024] [:error] [pid 6456:tid 1588] [client ::1:59557] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\unClasseSql.php:0, referer: http://localhost/View/cadastro.html
+[Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\Controller\\unClasseSql.php on line 17, referer: http://localhost/View/cadastro.html
+[Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP Stack trace:, referer: http://localhost/View/cadastro.html
+[Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\unClasseSql.php:0, referer: http://localhost/View/cadastro.html
