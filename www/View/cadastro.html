@@ -11,16 +11,19 @@
         <h1>
             Crie sua Conta
         </h1>
-        <h4>Nome completo</h4>
-        <input type="text" name="email" method="GET" autocomplete="nome">
-        <h4>E-mail</h4>
-        <input type="email" name="email" method="GET" autocomplete="email">
-        <h4>Senha</h4>
-        <input type="password" name="senha1" method="GET">
-        <h4>Confirme a senha</h4>
-        <input type="password" name="senha2" method="GET">
-        <h4></h4>
-        <button type="submit" value="conta">Criar conta</button>
+        <form method="post" action="../Controller/unClasseCadastro.php">
+            <h4>Nome completo</h4>
+            <input type="text" name="nome" autocomplete="nome">
+            <h4>E-mail</h4>
+            <input type="email" name="email"autocomplete="email">
+            <h4>Senha</h4>
+            <input type="password" name="senha1">
+            <h4>Confirme a senha</h4>
+            <input type="password" name="senha2">
+            <label class="Erro"></label>
+            <h4></h4>
+            <button type="submit" value="conta">Criar conta</button>
+        </form>
     </div>
 </body>
 </html>

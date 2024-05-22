@@ -2,8 +2,9 @@
 
 // PDO - Biblioteca de acesso a dados do php
 
-$servename = 'localhost';
-$database = 'nutrirede';
-$username = 'root';
-$password = 'masterkey';
-$pdo = new PDO("mysql:host=localhost;dbname=nutrirede", "root", "root");
+$servename = "localhost";
+$database = "nutrirede";
+$username = "root";
+$password = "root";
+
+$pdo = new PDO("mysql:host=$servename;dbname=$database", "$username", "$password");

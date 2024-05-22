@@ -1765,3 +1765,192 @@
 2024-05-20T22:36:12.131423Z 0 [Note] Shutting down plugin 'binlog'
 2024-05-20T22:36:12.147046Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
 
+2024-05-21T00:05:10.926083Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-21T00:05:10.941726Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-05-21T00:05:10.941726Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-21T00:05:10.941726Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-05-21T00:05:10.941726Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 13380 ...
+2024-05-21T00:05:10.957350Z 0 [ERROR] Can't open shared library 'C:\Python\www\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2024-05-21T00:05:10.957350Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-21T00:05:10.972976Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-21T00:05:11.098380Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-21T00:05:11.114004Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-21T00:05:11.145662Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-21T00:05:11.239832Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-21T00:05:11.255455Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-21T00:05:11.286702Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-21T00:05:11.286702Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-21T00:05:11.302330Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-21T00:05:11.302330Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-21T00:05:11.365241Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603409
+2024-05-21T00:05:11.365241Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Python\www\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-05-21T00:05:11.365241Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-21T00:05:11.380870Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-21T00:05:11.380870Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240520 21:05:11
+2024-05-21T00:05:11.380870Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-21T00:05:11.396495Z 0 [Note] IPv6 is available.
+2024-05-21T00:05:11.396495Z 0 [Note]   - '::' resolves to '::';
+2024-05-21T00:05:11.396495Z 0 [Note] Server socket created on IP: '::'.
+2024-05-21T00:05:11.506275Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-21T00:05:11.506275Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-21T00:08:31.135252Z 21 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-21T00:08:32.420768Z 22 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-21T00:41:09.552692Z 422 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:18.332882Z 423 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:23.729039Z 424 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:32.334328Z 425 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:37.274540Z 426 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:44.196413Z 427 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:44.618289Z 428 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:45.321413Z 429 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:45.727666Z 430 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:46.243291Z 431 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:46.571416Z 432 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:46.899537Z 433 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T00:41:47.274544Z 434 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:31:46.850386Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-21T22:31:46.850386Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-05-21T22:31:46.850386Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-21T22:31:46.850386Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-05-21T22:31:46.850386Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 14684 ...
+2024-05-21T22:31:46.912906Z 0 [ERROR] Can't open shared library 'C:\Python\www\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2024-05-21T22:31:46.928535Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2024-05-21T22:31:46.928535Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-21T22:31:46.928535Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-21T22:31:46.937557Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-21T22:31:46.937557Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-21T22:31:46.937557Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-21T22:31:46.944571Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-21T22:31:47.085665Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-21T22:31:47.101278Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-21T22:31:47.179814Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-21T22:31:47.179814Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2620320
+2024-05-21T22:31:47.179814Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2620329
+2024-05-21T22:31:47.179814Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2620329
+2024-05-21T22:31:47.195446Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-05-21T22:31:47.195446Z 0 [Note] InnoDB: Starting crash recovery.
+2024-05-21T22:31:47.807403Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-21T22:31:47.807403Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-21T22:31:47.807403Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-21T22:31:47.839678Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-21T22:31:47.854702Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-21T22:31:47.870343Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-21T22:31:47.870343Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-21T22:31:47.932852Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2620329
+2024-05-21T22:31:47.932852Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Python\www\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-05-21T22:31:47.932852Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-21T22:31:47.948899Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-21T22:31:47.964547Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240521 19:31:47
+2024-05-21T22:31:47.964547Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-21T22:31:47.980167Z 0 [Note] IPv6 is available.
+2024-05-21T22:31:47.980167Z 0 [Note]   - '::' resolves to '::';
+2024-05-21T22:31:47.980167Z 0 [Note] Server socket created on IP: '::'.
+2024-05-21T22:31:47.980167Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2024-05-21T22:31:47.980167Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2024-05-21T22:31:47.980167Z 0 [ERROR] Aborting
+
+2024-05-21T22:31:47.980167Z 0 [Note] Binlog end
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'ngram'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'partition'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'MyISAM'
+2024-05-21T22:31:47.995820Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2024-05-21T22:31:48.011429Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2024-05-21T22:31:48.027059Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2024-05-21T22:31:48.040089Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2024-05-21T22:31:48.040089Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2024-05-21T22:31:48.043110Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2024-05-21T22:31:48.058759Z 0 [Note] Shutting down plugin 'InnoDB'
+2024-05-21T22:31:48.058759Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-05-21T22:31:48.058759Z 0 [Note] InnoDB: Starting shutdown...
+2024-05-21T22:31:48.184170Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Python\www\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-05-21T22:31:48.184170Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 240521 19:31:48
+2024-05-21T22:31:49.297690Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2620348
+2024-05-21T22:31:49.297690Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-21T22:31:49.297690Z 0 [Note] Shutting down plugin 'MEMORY'
+2024-05-21T22:31:49.297690Z 0 [Note] Shutting down plugin 'CSV'
+2024-05-21T22:31:49.297690Z 0 [Note] Shutting down plugin 'sha256_password'
+2024-05-21T22:31:49.313325Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2024-05-21T22:31:49.313325Z 0 [Note] Shutting down plugin 'binlog'
+2024-05-21T22:31:49.313325Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2024-05-21T22:32:20.346244Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-21T22:32:20.346244Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-05-21T22:32:20.346244Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-21T22:32:20.346244Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-05-21T22:32:20.346244Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 1844 ...
+2024-05-21T22:32:20.393128Z 0 [ERROR] Can't open shared library 'C:\Python\www\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2024-05-21T22:32:20.393128Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-21T22:32:20.408739Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-21T22:32:20.518115Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-21T22:32:20.533741Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-21T22:32:20.596252Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-21T22:32:20.971246Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-21T22:32:20.971246Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-21T22:32:21.158748Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-21T22:32:21.174365Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-21T22:32:21.174365Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-21T22:32:21.174365Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-21T22:32:21.252490Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2620348
+2024-05-21T22:32:21.252490Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Python\www\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-05-21T22:32:21.252490Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-21T22:32:21.268115Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-21T22:32:21.283739Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240521 19:32:21
+2024-05-21T22:32:21.283739Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-21T22:32:21.283739Z 0 [Note] IPv6 is available.
+2024-05-21T22:32:21.299369Z 0 [Note]   - '::' resolves to '::';
+2024-05-21T22:32:21.299369Z 0 [Note] Server socket created on IP: '::'.
+2024-05-21T22:32:21.471238Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-21T22:32:21.471238Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-21T22:37:33.355680Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-21T22:38:22.593365Z 5 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:28.938345Z 6 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:30.409896Z 7 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:35.373382Z 8 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:35.935878Z 9 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:36.810890Z 10 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:37.264014Z 11 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:38.029634Z 12 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:38.389015Z 13 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:38.779628Z 14 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:39.560887Z 15 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-21T22:38:43.826910Z 16 [Note] Access denied for user 'root'@'localhost' (using password: YES)
