@@ -14,7 +14,7 @@ if (!$resultado) {
 else {
     $dados = $resultado->fetchAll(PDO::FETCH_ASSOC);
 }
-
+//
 if ($dados[0] == "") {
     echo "E-mail não encontrado";
 }
