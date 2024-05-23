@@ -597,3 +597,15 @@
 [Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP Notice:  Undefined variable: senha in C:\\Python\\www\\www\\Controller\\unClasseSql.php on line 17, referer: http://localhost/View/cadastro.html
 [Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP Stack trace:, referer: http://localhost/View/cadastro.html
 [Tue May 21 22:03:37.175502 2024] [:error] [pid 6456:tid 1588] [client ::1:61374] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\unClasseSql.php:0, referer: http://localhost/View/cadastro.html
+[Wed May 22 18:37:03.696633 2024] [ssl:warn] [pid 14104:tid 576] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 22 18:37:03.696633 2024] [ssl:warn] [pid 14104:tid 576] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 22 18:37:03.759126 2024] [core:warn] [pid 14104:tid 576] AH00098: pid file C:/Python/www/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 22 18:37:03.946626 2024] [ssl:warn] [pid 14104:tid 576] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 18:37:03.946626 2024] [ssl:warn] [pid 14104:tid 576] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 22 18:37:03.946626 2024] [ssl:warn] [pid 14104:tid 576] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 22 18:37:04.852875 2024] [mpm_winnt:notice] [pid 14104:tid 576] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed May 22 18:37:04.852875 2024] [mpm_winnt:notice] [pid 14104:tid 576] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed May 22 18:37:04.852875 2024] [core:notice] [pid 14104:tid 576] AH00094: Command line: 'C:\\Python\\www\\bin\\apache\\bin\\httpd.exe -d C:/Python/www/bin/apache -f C:\\Python\\www\\bin\\apache\\conf\\httpd.conf'
+[Wed May 22 18:37:04.868498 2024] [mpm_winnt:notice] [pid 14104:tid 576] AH00418: Parent: Created child process 13464
+[Wed May 22 18:37:06.618501 2024] [ssl:warn] [pid 13464:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 22 18:37:06.618501 2024] [ssl:warn] [pid 13464:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
