@@ -14,11 +14,11 @@ if ($quantidade == 1) {
     $usuario = $sql_query->fetch_assoc();
 
 if ($usuario["email"] != $email) {
-    die("e-mail ou senha são diferentes");
+    die("e-mail ou senha não encontrados");
 } elseif (password_verify($senha, $usuario["senha"])) {
     echo("Acesso liberado!");
 }else {
-    die("e-mail ou senha são diferentes");
+    die("e-mail ou senha não encontrado");
 }
 
 if(!isset($_SESSION)) {
@@ -31,5 +31,5 @@ $_SESSION["nome"] = $usuario["nome"];
 header("Location: ../View/paginaprincipal.php");
 
 }else {
-    echo"e-mail ou senha são diferentes";
+    echo"e-mail ou senha não encontrado";
 }

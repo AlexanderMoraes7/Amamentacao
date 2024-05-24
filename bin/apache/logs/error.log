@@ -2914,3 +2914,25 @@
 [Thu May 23 22:07:20.786853 2024] [:error] [pid 11332:tid 1404] [client ::1:64760] PHP Stack trace:, referer: http://localhost/View/cadastro.html
 [Thu May 23 22:07:20.786853 2024] [:error] [pid 11332:tid 1404] [client ::1:64760] PHP   1. {main}() C:\\Python\\www\\www\\Controller\\unClasseCadastro.php:0, referer: http://localhost/View/cadastro.html
 [Thu May 23 22:07:20.786853 2024] [:error] [pid 11332:tid 1404] [client ::1:64760] PHP Fatal error:  Uncaught Error: Call to a member function exec() on unknown in C:\\Python\\www\\www\\Controller\\unClasseCadastro.php:22\nStack trace:\n#0 {main}\n  thrown in C:\\Python\\www\\www\\Controller\\unClasseCadastro.php on line 22, referer: http://localhost/View/cadastro.html
+[Thu May 23 22:10:45.372587 2024] [mpm_winnt:crit] [pid 11332:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu May 23 22:10:45.372587 2024] [mpm_winnt:warn] [pid 11332:tid 720] (OS 995)A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 23 22:10:45.372587 2024] [mpm_winnt:warn] [pid 11332:tid 1804] (OS 995)A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 24 17:55:38.780769 2024] [ssl:warn] [pid 14040:tid 256] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 24 17:55:38.780769 2024] [ssl:warn] [pid 14040:tid 256] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 17:55:38.858896 2024] [core:warn] [pid 14040:tid 256] AH00098: pid file C:/Python/www/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 24 17:55:39.155766 2024] [ssl:warn] [pid 14040:tid 256] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 24 17:55:39.155766 2024] [ssl:warn] [pid 14040:tid 256] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 24 17:55:39.155766 2024] [ssl:warn] [pid 14040:tid 256] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 17:55:40.343265 2024] [mpm_winnt:notice] [pid 14040:tid 256] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Fri May 24 17:55:40.343265 2024] [mpm_winnt:notice] [pid 14040:tid 256] AH00456: Server built: Jan 28 2016 09:58:25
+[Fri May 24 17:55:40.343265 2024] [core:notice] [pid 14040:tid 256] AH00094: Command line: 'C:\\Python\\www\\bin\\apache\\bin\\httpd.exe -d C:/Python/www/bin/apache -f C:\\Python\\www\\bin\\apache\\conf\\httpd.conf'
+[Fri May 24 17:55:40.390143 2024] [mpm_winnt:notice] [pid 14040:tid 256] AH00418: Parent: Created child process 2932
+[Fri May 24 17:55:42.812429 2024] [ssl:warn] [pid 2932:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 24 17:55:42.812429 2024] [ssl:warn] [pid 2932:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 17:55:43.922895 2024] [ssl:warn] [pid 2932:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 24 17:55:43.922895 2024] [ssl:warn] [pid 2932:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 24 17:55:43.922895 2024] [ssl:warn] [pid 2932:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 17:55:44.070682 2024] [mpm_winnt:notice] [pid 2932:tid 648] AH00354: Child: Starting 64 worker threads.
+[Fri May 24 19:39:43.529705 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat
+[Fri May 24 19:39:43.788667 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat
+[Fri May 24 19:39:44.179216 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat

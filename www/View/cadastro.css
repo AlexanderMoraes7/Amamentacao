@@ -37,14 +37,26 @@ button{
     background-color: #b3097b;
     border-radius: 50px;
     color: #FFF;
-    font-size: xx-large;
     font-stretch: ultra-expanded;
-    margin-top: 3%;
-    padding: 1%;
-    width: 100%;
-    max-width: 450px;
+    margin: 0% 0% 0% 20%;
+    padding: 2%;
+    width: 80%;
+    max-width: 500px;
     }
 
 button :hover{
     cursor: pointer;
+}
+
+.Senhas{
+    position: relative;
+}
+
+div i {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    padding: 3% 0%;
+    color: hsl(0, 0%, 32%);
 }
