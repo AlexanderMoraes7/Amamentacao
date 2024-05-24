@@ -2167,3 +2167,8 @@ Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2024-05-24T20:55:38.452641Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
 Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2024-05-24T21:32:51.657836Z 17 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-24T23:27:09.030977Z 18 [Note] Aborted connection 18 to db: 'nutrirede' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-05-24T23:27:09.030977Z 19 [Note] Aborted connection 19 to db: 'nutrirede' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-05-24T23:27:15.316928Z 27 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-24T23:27:18.271948Z 28 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-24T23:27:23.240996Z 29 [Note] Access denied for user 'root'@'localhost' (using password: YES)

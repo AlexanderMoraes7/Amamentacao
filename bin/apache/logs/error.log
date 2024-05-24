@@ -2936,3 +2936,4 @@
 [Fri May 24 19:39:43.529705 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat
 [Fri May 24 19:39:43.788667 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat
 [Fri May 24 19:39:44.179216 2024] [:error] [pid 2932:tid 1368] [client ::1:54033] script 'C:/Python/www/www/View/cadastro.php' not found or unable to stat
+[Fri May 24 20:27:08.265349 2024] [mpm_winnt:crit] [pid 2932:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
