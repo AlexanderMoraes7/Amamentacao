@@ -2039,3 +2039,83 @@ Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2024-05-22T21:38:56.246710Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
 2024-05-23T00:17:41.352033Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1331565ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T21:21:46.948384Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-23T21:21:46.948384Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-05-23T21:21:46.948384Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-23T21:21:46.948384Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-05-23T21:21:46.950382Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 14620 ...
+2024-05-23T21:21:47.010430Z 0 [ERROR] Can't open shared library 'C:\Python\www\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2024-05-23T21:21:47.010430Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2024-05-23T21:21:47.010430Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-23T21:21:47.026058Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-23T21:21:47.026058Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-23T21:21:47.026058Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-23T21:21:47.026058Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-23T21:21:47.026058Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-23T21:21:47.161578Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-23T21:21:47.173460Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-23T21:21:47.242550Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-23T21:21:47.248636Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2686243
+2024-05-23T21:21:47.250989Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2686252
+2024-05-23T21:21:47.254997Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2686252
+2024-05-23T21:21:47.258195Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-05-23T21:21:47.260196Z 0 [Note] InnoDB: Starting crash recovery.
+2024-05-23T21:21:47.924450Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-23T21:21:47.927325Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-23T21:21:47.930119Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-23T21:21:47.969522Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-23T21:21:47.983752Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-23T21:21:47.987753Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-23T21:21:47.991753Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-23T21:21:48.058761Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2686252
+2024-05-23T21:21:48.058761Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-23T21:21:48.058761Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Python\www\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-05-23T21:21:48.074373Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-23T21:21:48.089990Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-23T21:21:48.089990Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240523 18:21:48
+2024-05-23T21:21:48.089990Z 0 [Note] IPv6 is available.
+2024-05-23T21:21:48.105612Z 0 [Note]   - '::' resolves to '::';
+2024-05-23T21:21:48.105612Z 0 [Note] Server socket created on IP: '::'.
+2024-05-23T21:21:48.336385Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-23T21:21:48.339385Z 0 [Note] C:\Python\www\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-23T21:43:10.940963Z 23 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-23T22:51:56.657716Z 80 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:52:46.009741Z 81 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:52:47.395612Z 82 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:52:54.384899Z 83 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:52:56.893735Z 84 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:56:10.526113Z 88 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:56:55.372140Z 92 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:56:56.261325Z 93 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:13.723858Z 96 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:37.793575Z 97 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:38.496290Z 98 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:53.400323Z 99 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:54.080510Z 100 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:54.448832Z 101 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:54.752870Z 102 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:55.032490Z 103 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:57.516411Z 104 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:58.088546Z 105 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:58.465978Z 106 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:58.796779Z 107 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:57:59.630376Z 108 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T22:58:43.018886Z 109 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:00:10.255388Z 110 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:00:11.130884Z 111 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:01:18.030933Z 112 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:01:19.067584Z 113 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:25.685867Z 114 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:26.960329Z 115 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:28.436537Z 116 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:29.285377Z 117 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:29.942835Z 118 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:30.408785Z 119 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:30.853246Z 120 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-23T23:06:52.342759Z 123 [Note] Access denied for user 'root5'@'localhost' (using password: YES)
+2024-05-23T23:08:40.645815Z 124 [Note] Access denied for user 'root5'@'localhost' (using password: YES)
+2024-05-23T23:08:58.063789Z 125 [Note] Access denied for user 'root   '@'localhost' (using password: YES)
+2024-05-23T23:08:59.899389Z 126 [Note] Access denied for user 'root   '@'localhost' (using password: YES)
+2024-05-23T23:09:00.413883Z 127 [Note] Access denied for user 'root   '@'localhost' (using password: YES)
+2024-05-24T00:29:38.560257Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 846467ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
