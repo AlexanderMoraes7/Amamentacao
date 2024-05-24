@@ -7,4 +7,8 @@ $database = "nutrirede";
 $username = "root";
 $password = "root";
 
-$pdo = new PDO("mysql:host=$servename;dbname=$database", "$username", "$password");
+try {
+$mysqli = new mysqli($servename, $username, $password, $database);
+} catch (PDOException $e) {
+    echo("Falha ao conectar ao banco de dados: ");
+}
