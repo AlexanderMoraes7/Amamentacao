@@ -2949,3 +2949,8 @@
 [Fri May 24 20:29:52.773042 2024] [mpm_winnt:notice] [pid 14492:tid 724] AH00418: Parent: Created child process 3776
 [Fri May 24 20:29:54.601586 2024] [ssl:warn] [pid 3776:tid 860] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Fri May 24 20:29:54.601586 2024] [ssl:warn] [pid 3776:tid 860] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 20:29:54.851586 2024] [ssl:warn] [pid 3776:tid 860] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 24 20:29:54.867213 2024] [ssl:warn] [pid 3776:tid 860] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 24 20:29:54.867213 2024] [ssl:warn] [pid 3776:tid 860] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 24 20:29:54.929709 2024] [mpm_winnt:notice] [pid 3776:tid 860] AH00354: Child: Starting 64 worker threads.
+[Fri May 24 20:31:25.715188 2024] [:error] [pid 3776:tid 1632] [client ::1:50880] script 'C:/Python/Amamentacao/www/View/index.php' not found or unable to stat
