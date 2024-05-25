@@ -1,7 +1,7 @@
 <?php
 /*
-<h1>Bem-vinda, <?php echo $_SESSION['nome']?></h1>
-<h2>Página principal de Apoio a Amamentação 💖</h2>
+
+
 <p>
     <a href="logout.php">Sair</a>
 </p>
@@ -9,8 +9,9 @@
 include("protect.php");
 
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@ include("protect.php");
 <div class="Container">
         <div class="Top">
             <h1>
-                Perfil
+                Apoio á Amamentação, <?php echo $_SESSION['nome']?></h1>
             </h1>
             <i class="Sino">
                 <img src="../images/icons8-bell-30.png" alt="ícone">
