@@ -2954,3 +2954,15 @@
 [Fri May 24 20:29:54.867213 2024] [ssl:warn] [pid 3776:tid 860] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Fri May 24 20:29:54.929709 2024] [mpm_winnt:notice] [pid 3776:tid 860] AH00354: Child: Starting 64 worker threads.
 [Fri May 24 20:31:25.715188 2024] [:error] [pid 3776:tid 1632] [client ::1:50880] script 'C:/Python/Amamentacao/www/View/index.php' not found or unable to stat
+[Sat May 25 11:59:15.754485 2024] [ssl:warn] [pid 1936:tid 508] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat May 25 11:59:15.754485 2024] [ssl:warn] [pid 1936:tid 508] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 25 11:59:15.816990 2024] [core:warn] [pid 1936:tid 508] AH00098: pid file C:/Python/Amamentacao/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 25 11:59:16.004484 2024] [ssl:warn] [pid 1936:tid 508] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat May 25 11:59:16.004484 2024] [ssl:warn] [pid 1936:tid 508] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat May 25 11:59:16.004484 2024] [ssl:warn] [pid 1936:tid 508] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 25 11:59:16.770110 2024] [mpm_winnt:notice] [pid 1936:tid 508] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Sat May 25 11:59:16.770110 2024] [mpm_winnt:notice] [pid 1936:tid 508] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat May 25 11:59:16.770110 2024] [core:notice] [pid 1936:tid 508] AH00094: Command line: 'C:\\Python\\Amamentacao\\bin\\apache\\bin\\httpd.exe -d C:/Python/Amamentacao/bin/apache -f C:\\Python\\Amamentacao\\bin\\apache\\conf\\httpd.conf'
+[Sat May 25 11:59:16.770110 2024] [mpm_winnt:notice] [pid 1936:tid 508] AH00418: Parent: Created child process 5768
+[Sat May 25 11:59:18.410759 2024] [ssl:warn] [pid 5768:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat May 25 11:59:18.410759 2024] [ssl:warn] [pid 5768:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name

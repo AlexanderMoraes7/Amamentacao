@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #f67299, #772976);
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.Top h1 {
+    margin: 7% 0 0 0;
+    padding: 3% 6% 1% 3%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh #949697;
+}
+
+.Top .Sino{
+    margin-left: auto; /* Adiciona espaço à esquerda, empurrando o elemento para a direita */
+    padding: 12% 2% 0% 0%;
+}
+
+.Top .Config{
+    padding: 12% 0% 0% 0%;
+}

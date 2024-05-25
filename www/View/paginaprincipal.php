@@ -18,8 +18,20 @@ include("protect.php");
     <title>Página Principal - Amamentação</title>
 </head>
 <body>
-    <div class="Principal">
-
+<div class="Container">
+        <div class="Top">
+            <h1>
+                Perfil
+            </h1>
+            <i class="Sino">
+                <img src="../images/icons8-bell-30.png" alt="ícone">
+            </i>
+            <i class="Config">
+                <img src="../images/icons8-settings-30.png" alt="">
+            </i>
+        </div>
+        <div class="Middle">
+        </div>
     </div>
 </body>
 </html>
