@@ -3374,3 +3374,18 @@
 [Sun May 26 10:29:59.674603 2024] [mpm_winnt:notice] [pid 3772:tid 656] AH00418: Parent: Created child process 1092
 [Sun May 26 10:30:01.463693 2024] [ssl:warn] [pid 1092:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Sun May 26 10:30:01.464688 2024] [ssl:warn] [pid 1092:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 26 10:30:01.769517 2024] [ssl:warn] [pid 1092:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 10:30:01.770518 2024] [ssl:warn] [pid 1092:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 26 10:30:01.770518 2024] [ssl:warn] [pid 1092:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 26 10:30:01.826534 2024] [mpm_winnt:notice] [pid 1092:tid 552] AH00354: Child: Starting 64 worker threads.
+[Sun May 26 13:13:45.116297 2024] [:error] [pid 1092:tid 1396] [client ::1:64957] script 'C:/Python/Amamentacao/www/Controller/paginaprincipal.php' not found or unable to stat
+[Sun May 26 13:13:54.108226 2024] [:error] [pid 1092:tid 1396] [client ::1:64967] script 'C:/Python/Amamentacao/www/Controller/paginaprincipal.php' not found or unable to stat
+[Sun May 26 13:16:22.005569 2024] [:error] [pid 1092:tid 1396] [client ::1:65131] PHP Parse error:  syntax error, unexpected end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 42
+[Sun May 26 13:16:22.776006 2024] [:error] [pid 1092:tid 1396] [client ::1:65131] PHP Parse error:  syntax error, unexpected end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 42
+[Sun May 26 13:16:22.829491 2024] [:error] [pid 1092:tid 1396] [client ::1:65131] PHP Parse error:  syntax error, unexpected end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 42
+[Sun May 26 13:16:23.514709 2024] [:error] [pid 1092:tid 1396] [client ::1:65131] PHP Parse error:  syntax error, unexpected end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 42
+[Sun May 26 13:18:13.931011 2024] [:error] [pid 1092:tid 1352] [client ::1:65232] PHP Parse error:  syntax error, unexpected '!', expecting ',' or ';' in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 29, referer: http://localhost/View/index.html
+[Sun May 26 13:18:14.439688 2024] [:error] [pid 1092:tid 1352] [client ::1:65232] PHP Parse error:  syntax error, unexpected '!', expecting ',' or ';' in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 29, referer: http://localhost/View/index.html
+[Sun May 26 13:18:19.800740 2024] [:error] [pid 1092:tid 1352] [client ::1:65234] PHP Parse error:  syntax error, unexpected '"!"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 29, referer: http://localhost/View/index.html
+[Sun May 26 13:18:20.361736 2024] [:error] [pid 1092:tid 1352] [client ::1:65234] PHP Parse error:  syntax error, unexpected '"!"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 29, referer: http://localhost/View/index.html
+[Sun May 26 13:18:20.600046 2024] [:error] [pid 1092:tid 1352] [client ::1:65234] PHP Parse error:  syntax error, unexpected '"!"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 29, referer: http://localhost/View/index.html
