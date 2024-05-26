@@ -3359,3 +3359,18 @@
 [Sat May 25 19:21:10.562241 2024] [:error] [pid 5768:tid 1372] [client ::1:51430] PHP Notice:  Use of undefined constant NOW - assumed 'NOW' in C:\\Python\\Amamentacao\\www\\View\\perfil.php on line 30, referer: http://localhost/View/perfil.php
 [Sat May 25 19:21:10.562241 2024] [:error] [pid 5768:tid 1372] [client ::1:51430] PHP Stack trace:, referer: http://localhost/View/perfil.php
 [Sat May 25 19:21:10.562241 2024] [:error] [pid 5768:tid 1372] [client ::1:51430] PHP   1. {main}() C:\\Python\\Amamentacao\\www\\View\\perfil.php:0, referer: http://localhost/View/perfil.php
+[Sat May 25 20:18:54.976210 2024] [:error] [pid 5768:tid 1368] [client ::1:59803] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 9, referer: http://localhost/View/index.html
+[Sat May 25 20:18:55.586464 2024] [:error] [pid 5768:tid 1368] [client ::1:59803] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 9, referer: http://localhost/View/index.html
+[Sat May 25 20:18:55.801286 2024] [:error] [pid 5768:tid 1368] [client ::1:59803] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\Python\\Amamentacao\\www\\View\\paginaprincipal.php on line 9, referer: http://localhost/View/index.html
+[Sun May 26 10:29:58.574304 2024] [ssl:warn] [pid 3772:tid 656] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 26 10:29:58.577305 2024] [ssl:warn] [pid 3772:tid 656] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 26 10:29:58.628177 2024] [core:warn] [pid 3772:tid 656] AH00098: pid file C:/Python/Amamentacao/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 26 10:29:58.790540 2024] [ssl:warn] [pid 3772:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 10:29:58.790540 2024] [ssl:warn] [pid 3772:tid 656] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 26 10:29:58.791541 2024] [ssl:warn] [pid 3772:tid 656] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 26 10:29:59.668602 2024] [mpm_winnt:notice] [pid 3772:tid 656] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Sun May 26 10:29:59.668602 2024] [mpm_winnt:notice] [pid 3772:tid 656] AH00456: Server built: Jan 28 2016 09:58:25
+[Sun May 26 10:29:59.668602 2024] [core:notice] [pid 3772:tid 656] AH00094: Command line: 'C:\\Python\\Amamentacao\\bin\\apache\\bin\\httpd.exe -d C:/Python/Amamentacao/bin/apache -f C:\\Python\\Amamentacao\\bin\\apache\\conf\\httpd.conf'
+[Sun May 26 10:29:59.674603 2024] [mpm_winnt:notice] [pid 3772:tid 656] AH00418: Parent: Created child process 1092
+[Sun May 26 10:30:01.463693 2024] [ssl:warn] [pid 1092:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 26 10:30:01.464688 2024] [ssl:warn] [pid 1092:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
