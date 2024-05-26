@@ -1,10 +1,4 @@
 <?php
-/*
-
-<p>
-    <a href="logout.php">Sair</a>
-</p>
-*/
 include("protect.php");
 
 if(!isset($_SESSION["nome"])) {
@@ -14,21 +8,19 @@ if(!isset($_SESSION["nome"])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/paginaprincipal.css">
-    <title>Página Principal</title>
+    <title>Apoio á Amamentação</title>
 </head>
 <body>
-<div class="Container">
+    <div class="Container">
         <div class="Top">
-            <h1>
-                Bem-vinda, <?php echo $_SESSION['nome'] . '!'?> <br>
-                Apoio á Amamentação
-            <button class="Sino"><img src="../images/icons8-bell-30.png" alt="Notificações"></button>
-            <a class="Config" href="config.php"><img src="../images/icons8-settings-30.png" alt="Configurações"></a>
+            <h1>Configuração</h1>
+            <p>
+                <a href="logout.php">Sair</a>
+            </p>
         </div>
         <div class="Middle">
             <!-- Conteúdo da seção do meio -->
@@ -36,6 +28,6 @@ if(!isset($_SESSION["nome"])) {
         <div class="Bottom">
             <!-- Conteúdo da seção de baixo -->
         </div>
-</div>
+    </div>
 </body>
 </html>

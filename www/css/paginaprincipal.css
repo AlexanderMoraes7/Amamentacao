@@ -35,10 +35,18 @@ html, body {
 
 .Top .Sino, .Top .Config {
     position: absolute; /* Para permitir posicionamento absoluto */
-    bottom: 0; /* Alinha ao fundo do contêiners*/
+    bottom: 0; /* Alinha ao fundo do contêiner*/
     padding: 1% 2% 0 0;
     cursor: pointer;
-    /* border: 1px solid #949697; */
+    background: none;
+    outline: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+
+.Top .Sino:active, .Top .Config:active {
+    opacity: 0.7; /* Diminui a opacidade ao clicar para um feedback visual */
 }
 
 .Top .Sino {
@@ -49,12 +57,6 @@ html, body {
     right: 01px;
 }
 
-
-/* .Top .Sino .Config{
-    margin: 9.5% 0% 0% 0%;
-    margin-left: auto; /* Adiciona espaço à esquerda, empurrando o elemento para a direita 
-    padding: 02% 02% 0% 0%;
-    cursor: pointer;
-    border: #949697;
-    border-style: solid;
+.Config-icons{
+    display: none;
 }
