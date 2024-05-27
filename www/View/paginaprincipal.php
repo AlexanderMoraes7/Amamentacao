@@ -35,7 +35,7 @@ if(!isset($_SESSION["nome"])) {
             <!-- Conteúdo da seção do meio -->
         </div>
         <div class="Bottom">
-        <a class="Info" href="info.php"><img src="../images/icons8-about-480.png" alt="Informações"></a>
+        <a class="Info" href="info.php"><img src="../images/icons8-about-64.png" alt="Informações"></a>
         <a class="Doadora" href="sejadoadora.php"><img src="../images/icons8-love-64.png" alt="Seja Doadora"></a>
         <a class="Feed" href="paginaprincipal.php"><img src="../images/icons8-home-64.png" alt="Página Principal"></a>
         <a class="Unidades" href="unidades.php"><img src="../images/icons8-hospital-64.png" alt="Unidades de doação de leite materno"></a>
