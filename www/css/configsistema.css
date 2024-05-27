@@ -58,8 +58,18 @@ html, body {
 
 .Bottom{
     display: flex;
+    justify-content: space-around; /* Espaçar os itens dentro da barra inferior */
+    align-items: center; /* Centralizar verticalmente os itens */
+    background: #fc9ccc; /* Cor de fundo rosa */
+    height: 70px; /* Altura da barra inferior */
+    margin-top: auto; /* Empurrar a barra inferior para o fundo */
+
+
+
+    /* display: flex;
     align-items: flex-end;
-    border: #000 solid;
+    border: none;
+    background: #fc9ccc; */
 }
 
 .Bottom a{

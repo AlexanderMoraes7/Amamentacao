@@ -68,7 +68,7 @@ if(isset($_FILES["arquivo"])){
         <a class="Doadora" href="sejadoadora.php"><img src="../images/icons8-love-64.png" alt="Seja Doadora"></a>
         <a class="Feed" href="paginaprincipal.php"><img src="../images/icons8-home-64.png" alt="Página Principal"></a>
         <a class="Unidades" href="unidades.php"><img src="../images/icons8-hospital-64.png" alt="Unidades de doação de leite materno"></a>
-        <a class="Perfil" href="perfil.php"><img src="../images/icons8-user-64.png" alt="Perfil do usuário"></a>
+        <a class="Perfil" href="perfil.php"><img src="../images/icons8-user-64-white.png" alt="Perfil do usuário"></a>
         <!-- Conteúdo da seção de baixo -->
         </div>
     </div>

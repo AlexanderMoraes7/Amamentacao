@@ -16,14 +16,13 @@ if(!isset($_SESSION["nome"])) {
     <title>Apoio á Amamentação</title>
 </head>
 <body>
-<body>
     <div class="Container">
         <div class="Top">
             <h1>
                 Configuração
             </h1>
             <button class="Sino"><img src="../images/icons8-bell-30.png" alt="Notificações"></button>
-            <a class="Config" href="config.php"><img src="../images/icons8-settings-30.png" alt="Configurações"></a>
+            <a class="Config" href="config.php"><img src="../images/icons8-settings-30-margenta-amarelo.png" alt="Configurações"></a>
         </div>
         <div class="Middle">
             <button><a href="logout.php">Sair</a></button>
