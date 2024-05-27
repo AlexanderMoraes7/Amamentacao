@@ -59,7 +59,8 @@ html, body {
 .Bottom{
     display: flex;
     align-items: flex-end;
-    border: #000 solid;
+    border: none;
+    background: #fc9ccc;
 }
 
 .Bottom a{
