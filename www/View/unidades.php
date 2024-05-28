@@ -1,0 +1,23 @@
+<?php
+include("protect.php");
+include("imagens.php");
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/paginaprincipal.css">
+    <title>Unidades</title>
+</head>
+<body>
+    <div class="Container">
+        <?php echo $Topo ?>
+        <div class="Middle">
+            <!-- Conteúdo da seção do meio -->
+        </div>
+        <?php echo $Bottom ?>
+    </div>
+</body>
+</html>
