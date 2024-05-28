@@ -5,7 +5,6 @@ include_once("imagens.php");
 include_once("../Model/unClasseConfig.php");
 include_once("../css/Estilos.php");
 
-
 if(isset($_FILES["arquivo"])){
     $arquivo = $_FILES["arquivo"];
     
@@ -53,6 +52,9 @@ if(isset($_FILES["arquivo"])){
         <div class="Middle">
             <form method="post" enctype="multipart/form-data" action="">
                 <label for="" type="submit">Alterar foto</label>
+                <p>
+                    <a href="logout.php">Sair</a>
+                </p>
             </form>
         </div>
         <?php echo $Bottom ?>

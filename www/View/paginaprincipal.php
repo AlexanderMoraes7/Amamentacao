@@ -1,14 +1,7 @@
 <?php
-/*
-<p>
-    <a href="logout.php">Sair</a>
-</p>
-*/
-
 include_once("protect.php");
 include_once("imagens.php");
 include_once("../css/Estilos.php");
-
 ?>
 
 <!DOCTYPE html>

@@ -6,6 +6,8 @@ $Feed = "../images/icons8-home-64.png";
 $Unidade = "../images/icons8-hospital-64.png";
 $Perfil = "../images/icons8-user-64.png";
 $Subtitulo = "";
+$Setting = "../images/icons8-settings-30.png";
+$Bell = "../images/icons8-bell-30.png";
 
 $currentPage = basename($_SERVER['PHP_SELF']);
 if ($currentPage == "info.php") {
@@ -23,6 +25,9 @@ if ($currentPage == "info.php") {
 } else if ($currentPage == "perfil.php") {
     $Perfil = "../images/icons8-user-64-white.png";
     $Subtitulo = "Perfil";
+} else if ($currentPage == "config.php") {
+    $Setting = "../images/icons8-settings-30-margenta-amarelo.png";
+    $Subtitulo = "Configuração";
 }
 
 $Topo = 
@@ -30,8 +35,8 @@ $Topo =
 <h1>
     '.$Subtitulo.'
 </h1>
-<button class="Sino"><img src="../images/icons8-bell-30.png" alt="Notificações"></button>
-<a class="Config" href="config.php"><img src="../images/icons8-settings-30.png" alt="Configurações"></a>
+<button class="Sino"><img src="'.$Bell.'" alt="Notificações"></button>
+<a class="Config" href="config.php"><img src="'.$Setting.'" alt="Configurações"></a>
 </div>';
 
 $Bottom =
