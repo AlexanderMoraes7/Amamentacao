@@ -3,7 +3,7 @@
 include_once("protect.php");
 include_once("imagens.php");
 include_once("../Model/unClasseConfig.php");
-
+include_once("../css/Estilos.php");
 
 
 if(isset($_FILES["arquivo"])){
@@ -45,6 +45,7 @@ if(isset($_FILES["arquivo"])){
     <link rel="stylesheet" href="../css/perfil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Configurações de perfil</title>
+    <?php echo $Estilizacao_pagina; // Estilo do Cabeçalho e do rodapé da página ?>
 </head>
 <body>
     <div class="Container">
