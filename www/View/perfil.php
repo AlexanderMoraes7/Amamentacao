@@ -48,13 +48,10 @@ if(isset($_FILES["arquivo"])){
 </head>
 <body>
     <div class="Container">
-    <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
             <form method="post" enctype="multipart/form-data" action="">
-                <label for="">Alterar foto</label>
-                <input name="arquivo" type="file">
-                <button type="submit">Enviar arquivo</button>
+                <label for="" type="submit">Alterar foto</label>
             </form>
         </div>
         <?php echo $Bottom ?>
