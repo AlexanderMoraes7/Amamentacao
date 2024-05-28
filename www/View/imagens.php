@@ -28,6 +28,8 @@ if ($currentPage == "info.php") {
 } else if ($currentPage == "config.php") {
     $Setting = "../images/icons8-settings-30-margenta-amarelo.png";
     $Subtitulo = "Configuração";
+} else if ($currentPage == "configsistema.php") {
+    $Subtitulo = "Configuração do sistema";
 }
 
 $Topo = 

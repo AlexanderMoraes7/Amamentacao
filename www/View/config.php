@@ -15,10 +15,7 @@ include_once("../css/Estilos.php");
 </head>
 <body>
     <div class="Container">
-    <?php echo $Topo ?>
-        <div class="Middle">
-            <!-- Conteúdo da seção do meio -->
-        </div>
+        <?php echo $Topo ?>
         <div class="Middle">
             <button class="ConfigSistema"><a href="configsistema.php">Configuração do sistema</a></button>
         </div>
