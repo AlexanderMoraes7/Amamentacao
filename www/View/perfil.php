@@ -28,6 +28,10 @@ if(isset($_FILES["arquivo"])){
     // var_dump($_FILES["arquivo"]);
     // print_r(nl2br($extensao.PHP_EOL));
 
+    // Deleta a foto anterior na pasta local
+    $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
+    $localFoto = $BuscaFoto->fetch_assoc();
+    unlink($localFoto["path"]);
 
     // deletar a foto anterior
     $enviado = move_uploaded_file($arquivo["tmp_name"], $pasta . $nomeArquivo . "." . $extensao);
@@ -44,6 +48,14 @@ if(isset($_FILES["arquivo"])){
 // Buscar local da foto no banco
 $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
 $localFoto = $BuscaFoto->fetch_assoc();
+$FotoUser = $localFoto["path"];
+
+print_r($FotoUser);
+// Verifica se o usuario já enviou foto
+if($FotoUser == " "){
+    $FotoUser = "../Fotos_perfil/icons8-female-profile-100.png";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -60,7 +72,10 @@ $localFoto = $BuscaFoto->fetch_assoc();
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
-            <img src=<?php echo $localFoto["path"]; ?> alt="Foto de perfil do usuário">
+            <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
+            <p>
+            <?php print_r($id_usuario); ?>
+            </p>
             <form method="post" enctype="multipart/form-data" action="">
                 <input type="file" name="arquivo">alterar foto
                 <button name="upload" type="submit">enviar</button>
@@ -73,3 +88,5 @@ $localFoto = $BuscaFoto->fetch_assoc();
     </div>
 </body>
 </html>
+
+
