@@ -8,6 +8,7 @@ $Perfil = "../images/icons8-user-64.png";
 $Subtitulo = "";
 $Setting = "../images/icons8-settings-30.png";
 $Bell = "../images/icons8-bell-30.png";
+$Usuario = "../images/icons8-female-profile-100.png";
 
 $currentPage = basename($_SERVER['PHP_SELF']);
 if ($currentPage == "info.php") {

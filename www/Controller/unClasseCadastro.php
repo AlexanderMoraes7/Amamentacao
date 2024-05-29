@@ -25,8 +25,17 @@ try {
         echo "As senhas não são iguais. Digite novamente.";
     } else{
         $senha1 = password_hash($senha1, PASSWORD_DEFAULT);
+        //insere usuario na tabela
         $mysqli->query("INSERT INTO USUARIOS(nome, sobrenome, email, senha) VALUES 
                 ('$nome', '$sobrenome','$email', '$senha1')");
+        // busca usuario criado
+        $BuscaUser = $mysqli->query("SELECT * FROM USUARIOS
+                WHERE email = '$email'") or die($mysqli->error);
+        $user = $BuscaUser->fetch_assoc();
+        $id = $user["idusuario"];
+        // insere usuario na tabela fotos, para inserção de fotos posteriormente
+        $mysqli->query("INSERT INTO FOTOS_PERFIL(idusuario) VALUES
+                ('$id')");
         echo "Conta criada com sucesso";
         }
     } catch (PDOException $e) {
