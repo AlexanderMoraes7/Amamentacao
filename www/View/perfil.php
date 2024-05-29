@@ -28,11 +28,13 @@ if(isset($_FILES["arquivo"])){
     // var_dump($_FILES["arquivo"]);
     // print_r(nl2br($extensao.PHP_EOL));
 
+
+    // deletar a foto anterior
     $enviado = move_uploaded_file($arquivo["tmp_name"], $pasta . $nomeArquivo . "." . $extensao);
     $path = $pasta . $nomeArquivo . "." . $extensao;
 
     if($enviado){
-        $mysqli->query("INSERT INTO fotos_perfil (idusuario, nome, data_upload, path) VALUES ($id_usuario, '$nomeArquivo', '$time', '$path')") or die($mysqli->error);
+        $mysqli->query("UPDATE fotos_perfil SET nome = '$nomeArquivo', data_upload ='$time', path = '$path' WHERE idusuario = $id_usuario") or die($mysqli->error);
         echo "foto enviada!";
     } else {
         die("Falha ao enviar a foto!");
