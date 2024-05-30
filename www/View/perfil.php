@@ -8,6 +8,7 @@ include_once("../css/Estilos.php");
 $oProtect = new Procect(); // instância para permitir o acesso somente a quem estiver logado
 $id_usuario = $_SESSION["idusuario"];
 
+
 if(isset($_FILES["arquivo"])){
     $arquivo = $_FILES["arquivo"];
     
@@ -22,9 +23,12 @@ if(isset($_FILES["arquivo"])){
     $pasta = "../Fotos_perfil/";
     $nomeArquivo = uniqid();
     $extensao = strtolower(pathinfo($arquivo["name"], PATHINFO_EXTENSION));
-
     date_default_timezone_set('America/Sao_Paulo');
     $time = date('Y-m-d H:i:s');
+
+    if ($extensao == ".png" || $extensao == ".jpeg"){
+        die("Erro ao enviar o arquivo");
+    }
 
     // var_dump($_FILES["arquivo"]);
     // print_r(nl2br($extensao.PHP_EOL));
@@ -74,8 +78,9 @@ if($FotoUser == ""){
         <div class="Middle">
             <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="">
-                <input type="file" name="arquivo">alterar foto
-                <button name="upload" type="submit">enviar</button>
+                <input type="file" name="arquivo" id="arquivo" style="display: none;">
+                <label for="arquivo" name="arquivo" type="submit">Alterar foto</label>
+                <!-- <button name="upload" type="submit">enviar</button> -->
             </form>
             <label class="Label" for="">Nome</label>
             <p class="Parag">Fulano de tal</p>
