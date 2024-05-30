@@ -1,6 +1,6 @@
 <?php
 
-include_once("protect.php");
+include_once("../Controller/unClasseProtect.php");
 include_once("imagens.php");
 include_once("../Model/unClasseConfig.php");
 include_once("../css/Estilos.php");
@@ -50,9 +50,8 @@ $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$i
 $localFoto = $BuscaFoto->fetch_assoc();
 $FotoUser = $localFoto["path"];
 
-print_r($FotoUser);
 // Verifica se o usuario já enviou foto
-if($FotoUser == " "){
+if($FotoUser == ""){
     $FotoUser = "../Fotos_perfil/icons8-female-profile-100.png";
 }
 
@@ -73,20 +72,15 @@ if($FotoUser == " "){
         <?php echo $Topo ?>
         <div class="Middle">
             <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
-            <p>
-            <?php print_r($id_usuario); ?>
-            </p>
             <form method="post" enctype="multipart/form-data" action="">
                 <input type="file" name="arquivo">alterar foto
                 <button name="upload" type="submit">enviar</button>
             </form>
             <p>
-                <a href="logout.php">Sair</a>
+                <a href="../Controller/unClasseLogout.php">Sair</a>
             </p>
         </div>
         <?php echo $Bottom ?>
     </div>
 </body>
 </html>
-
-

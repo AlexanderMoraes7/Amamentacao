@@ -1,5 +1,5 @@
 <?php
-include_once("protect.php");
+include_once("../Controller/unClasseProtect.php");
 include_once("../css/Estilos.php");
 include_once("imagens.php");
 
