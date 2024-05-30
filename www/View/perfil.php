@@ -26,29 +26,31 @@ if(isset($_FILES["arquivo"])){
     date_default_timezone_set('America/Sao_Paulo');
     $time = date('Y-m-d H:i:s');
 
-    if ($extensao == ".png" || $extensao == ".jpeg"){
-        die("Erro ao enviar o arquivo");
-    }
+    if ($extensao == "png" || $extensao == "jpeg" || $extensao == "jpg" || $extensao == "gif" || $extensao == "svg" || $extensao == "bmp"|| $extensao == ""){
 
-    // var_dump($_FILES["arquivo"]);
-    // print_r(nl2br($extensao.PHP_EOL));
+        // Deleta a foto anterior na pasta local
+        $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
+        $localFoto = $BuscaFoto->fetch_assoc();
+        unlink($localFoto["path"]);
 
-    // Deleta a foto anterior na pasta local
-    $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
-    $localFoto = $BuscaFoto->fetch_assoc();
-    unlink($localFoto["path"]);
+        // deletar a foto anterior na pasta local
+        $enviado = move_uploaded_file($arquivo["tmp_name"], $pasta . $nomeArquivo . "." . $extensao);
+        $path = $pasta . $nomeArquivo . "." . $extensao;
 
-    // deletar a foto anterior
-    $enviado = move_uploaded_file($arquivo["tmp_name"], $pasta . $nomeArquivo . "." . $extensao);
-    $path = $pasta . $nomeArquivo . "." . $extensao;
+        if($enviado){
+            $mysqli->query("UPDATE fotos_perfil SET nome = '$nomeArquivo', data_upload ='$time', path = '$path' WHERE idusuario = $id_usuario") or die($mysqli->error);
+            echo "foto enviada!";
+        } else {
+            die("Falha ao enviar a foto!");
+        }
 
-    if($enviado){
-        $mysqli->query("UPDATE fotos_perfil SET nome = '$nomeArquivo', data_upload ='$time', path = '$path' WHERE idusuario = $id_usuario") or die($mysqli->error);
-        echo "foto enviada!";
     } else {
-        die("Falha ao enviar a foto!");
+        die("Erro ao enviar o arquivo(if de extenção)");
     }
 }
+
+// var_dump($_FILES["arquivo"]); // detalhes do arquivo
+// print_r(nl2br($extensao.PHP_EOL)); // printa e pula uma linha
 
 // Buscar local da foto no banco
 $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
@@ -78,9 +80,9 @@ if($FotoUser == ""){
         <div class="Middle">
             <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="">
-                <input type="file" name="arquivo" id="arquivo" style="display: none;">
+                <input type="file" name="arquivo" id="arquivo" style="display: none;" onchange="this.form.submit()">
                 <label for="arquivo" name="arquivo" type="submit">Alterar foto</label>
-                <!-- <button name="upload" type="submit">enviar</button> -->
+                <!-- <button name="upload" type="submit" display="display : none">enviar</button> -->
             </form>
             <label class="Label" for="">Nome</label>
             <p class="Parag">Fulano de tal</p>
