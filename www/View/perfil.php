@@ -77,6 +77,12 @@ if($FotoUser == ""){
                 <input type="file" name="arquivo">alterar foto
                 <button name="upload" type="submit">enviar</button>
             </form>
+            <label class="Label" for="">Nome</label>
+            <p class="Parag">Fulano de tal</p>
+            <label class="Label" for="">E-mail</label>
+            <p class="Parag">Fulano@gmail.com</p>
+            <label class="Label" for="">Endereço</label>
+            <p class="Parag">Rua de teste, número 21</p>
             <p>
                 <a href="../Controller/unLogout.php">Sair</a>
             </p>

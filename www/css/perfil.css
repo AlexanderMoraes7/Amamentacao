@@ -5,6 +5,7 @@
     padding-top: 0; /* Espaçamento no topo */
     margin-top: 0;
     border : #000 solid;
+    height: 400px;
 }
 
 .img {
