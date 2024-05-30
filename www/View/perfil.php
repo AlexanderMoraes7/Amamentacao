@@ -58,8 +58,9 @@ $localFoto = $BuscaFoto->fetch_assoc();
 $FotoUser = $localFoto["path"];
 
 // Verifica se o usuario já enviou foto
+print_r(nl2br($FotoUser.PHP_EOL));
 if($FotoUser == ""){
-    $FotoUser = "../Fotos_perfil/icons8-female-profile-100.png";
+    $FotoUser = "../Fotos_perfil/avatars.gif";
 }
 
 ?>
