@@ -1,9 +1,12 @@
 <?php
 
 include_once("../Controller/unClasseProtect.php");
-include_once("imagens.php");
 include_once("../Model/unClasseConfig.php");
+include_once("../Controller/unClasseLogout.php");
+include_once("imagens.php");
 include_once("../css/Estilos.php");
+
+$oProtect = new Procect(); // instância para permitir o acesso somente a quem estiver logado
 
 $id_usuario = $_SESSION["idusuario"];
 

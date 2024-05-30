@@ -3,6 +3,7 @@ include_once("../Controller/unClasseProtect.php");
 include_once("../css/Estilos.php");
 include_once("imagens.php");
 
+$oProtect = new Procect();// instância para permitir o acesso somente a quem estiver logado
 ?>
 
 <!DOCTYPE html>
