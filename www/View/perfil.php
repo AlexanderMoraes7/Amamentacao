@@ -25,6 +25,7 @@ if(isset($_FILES["arquivo"])){
     $extensao = strtolower(pathinfo($arquivo["name"], PATHINFO_EXTENSION));
     date_default_timezone_set('America/Sao_Paulo');
     $time = date('Y-m-d H:i:s');
+    $endereco = $_SESSION["endereco"];
 
     if ($extensao == "png" || $extensao == "jpeg" || $extensao == "jpg" || $extensao == "gif" || $extensao == "svg" || $extensao == "bmp"|| $extensao == ""){
 
@@ -62,6 +63,11 @@ if($FotoUser == ""){
     $FotoUser = "../Fotos_perfil/avatars.gif";
 }
 
+// Verifica endereço do usuario
+if ($endereco = " "){
+    $endereco = "Nenhum endereço cadastrado";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -78,24 +84,28 @@ if($FotoUser == ""){
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
-            <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
+            <div class="Label1">
+            <img src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="">
                 <input type="file" name="arquivo" id="arquivo" style="display: none;" onchange="this.form.submit()">
-                <label class="Label" for="arquivo" name="arquivo" type="submit">Alterar foto</label>
+                <label for="arquivo" name="arquivo" type="submit">Alterar foto</label>
                 <br>
-                <label class="Label">Sou doadora</label>
+                <label>Sou doadora</label>
             </form>
+            </div>
             <div class="Label2">
                 <label>Nome</label>
-                <p class="Parag"><?php echo $_SESSION["nome"] ?></p>
+                <p><?php echo $_SESSION["nome"] ?></p>
                 <label>E-mail</label>
-                <p class="Parag">Fulano@gmail.com</p>
+                <p><?php echo $_SESSION["email"]; ?></p>
                 <label>Endereço</label>
-                <p class="Parag">Rua de teste, número 21</p>
-                <p>
+                <p><?php echo $endereco; ?></p>
             </div>
-                <a href="../Controller/unLogout.php">Sair</a>
-            </p>
+            <div class="Label3">
+                <a href="mensagens.php"><img src="../images/icons8-letter-50.png" alt="Mensagens"></a>
+                <a href="publicacoes.php"><img src="../images/icons8-photo-gallery-50.png" alt="Publicações"></a>
+                <a href="conexoes.php"><img src="../images/icons8-group-48.png" alt="conexões"></a>
+            </div>
         </div>
         <?php echo $Bottom ?>
     </div>

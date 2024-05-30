@@ -19,6 +19,9 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
+            <p>
+                <a href="../Controller/unLogout.php">Sair</a>
+            </p>
             <button class="ConfigSistema"><a href="configsistema.php">Configuração do sistema</a></button>
         </div>
         <?php echo $Bottom ?>

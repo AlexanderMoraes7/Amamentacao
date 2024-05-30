@@ -27,6 +27,8 @@ if(!isset($_SESSION)) {
 
 $_SESSION["idusuario"] = $usuario["idusuario"];
 $_SESSION["nome"] = $usuario["nome"];
+$_SESSION["email"] = $usuario["email"];
+$_SESSION["endereco"] = $usuario["endereco"];
 
 header("Location: ../View/paginaprincipal.php");
 
