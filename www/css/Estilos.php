@@ -72,14 +72,13 @@ html, body {
 }
 
 .Bottom a{
-    padding: 1%;
+    padding: 0;
 }
 
-@media (max-width: 354px) { /* Menor ou igual a 354 pixels*/
+@media (max-width: 319px) { /* Menor ou igual a 354 pixels*/
     .Bottom{
         display: block;
     }
 }
-
 </style>
 ';

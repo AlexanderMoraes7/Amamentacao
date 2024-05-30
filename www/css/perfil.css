@@ -28,8 +28,8 @@
 }
 
 .Label2 .Parag{
+    margin: 0;
     display: flex;
     align-self: normal;
     background-color: #ececec;
-    justify-content: stretch;
 }
