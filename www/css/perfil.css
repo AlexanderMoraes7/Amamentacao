@@ -1,14 +1,10 @@
-.Top{
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 .Middle {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     padding-top: 0; /* Espaçamento no topo */
     margin-top: 0;
+    border : #000 solid;
 }
 
 .img {
@@ -16,7 +12,7 @@
     max-width: 200px;
     height: 200px; /* Mantém a proporção da imagem */
     border-radius: 100%;
-    display: block; /* Remove espaçamento indesejado ao redor da imagem */
+    display: flex; /* Remove espaçamento indesejado ao redor da imagem */
     margin-top: 0 auto; /* Centraliza a imagem horizontalmente */
     object-fit: cover; /* Garante que a imagem preencha o contêiner de forma adequada */
 }

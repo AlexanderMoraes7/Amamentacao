@@ -2,12 +2,10 @@
 
 include_once("../Controller/unClasseProtect.php");
 include_once("../Model/unClasseConfig.php");
-include_once("../Controller/unClasseLogout.php");
 include_once("imagens.php");
 include_once("../css/Estilos.php");
 
 $oProtect = new Procect(); // instância para permitir o acesso somente a quem estiver logado
-
 $id_usuario = $_SESSION["idusuario"];
 
 if(isset($_FILES["arquivo"])){
@@ -80,7 +78,7 @@ if($FotoUser == ""){
                 <button name="upload" type="submit">enviar</button>
             </form>
             <p>
-                <a href="../Controller/unClasseLogout.php">Sair</a>
+                <a href="../Controller/unLogout.php">Sair</a>
             </p>
         </div>
         <?php echo $Bottom ?>
