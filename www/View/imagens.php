@@ -44,10 +44,9 @@ $Topo =
 
 $Bottom =
 '<div class="Bottom">
-    <a class="Info" href="info.php"><img src="'.$Info.'" alt="Informações"></a>
-    <a class="Doadora" href="sejadoadora.php"><img src="'.$Doadora.'" alt="Seja Doadora"></a>
-    <a class="Feed" href="paginaprincipal.php"><img src="'.$Feed.'" alt="Página Principal"></a>
-    <a class="Unidades" href="unidades.php"><img src="'.$Unidade.'" alt="Unidades de doação de leite materno"></a>
-    <a class="Perfil" href="perfil.php"><img src="'.$Perfil.'" alt="Perfil do usuário"></a>
-    <!-- Conteúdo da seção de baixo -->
+    <a href="info.php"><img src="'.$Info.'" alt="Informações"></a>
+    <a href="sejadoadora.php"><img src="'.$Doadora.'" alt="Seja Doadora"></a>
+    <a href="paginaprincipal.php"><img src="'.$Feed.'" alt="Página Principal"></a>
+    <a href="unidades.php"><img src="'.$Unidade.'" alt="Unidades de doação de leite materno"></a>
+    <a href="perfil.php"><img src="'.$Perfil.'" alt="Perfil do usuário"></a>
 </div>';

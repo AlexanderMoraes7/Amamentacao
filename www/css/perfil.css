@@ -5,7 +5,7 @@
     padding-top: 0; /* Espaçamento no topo */
     margin-top: 0;
     border : #000 solid;
-    height: 400px;
+    height: 300px;
 }
 
 .img {
@@ -16,4 +16,20 @@
     display: flex; /* Remove espaçamento indesejado ao redor da imagem */
     margin-top: 0 auto; /* Centraliza a imagem horizontalmente */
     object-fit: cover; /* Garante que a imagem preencha o contêiner de forma adequada */
+}
+
+.Label{
+    padding: 10px;
+}
+
+.Label2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Label2 .Parag{
+    display: flex;
+    align-self: normal;
+    background-color: #ececec;
+    justify-content: stretch;
 }

@@ -17,7 +17,7 @@ html, body {
     justify-content: space-between; /* Distribui espaço entre Middle e Bottom */
     margin: 0;
     padding: 0;
-    height: 100%    ;
+    height: 100%;
 }
 
 .Top {
@@ -74,5 +74,12 @@ html, body {
 .Bottom a{
     padding: 1%;
 }
+
+@media (max-width: 354px) { /* Menor ou igual a 354 pixels*/
+    .Bottom{
+        display: block;
+    }
+}
+
 </style>
 ';

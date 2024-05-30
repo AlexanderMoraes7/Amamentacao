@@ -58,7 +58,6 @@ $localFoto = $BuscaFoto->fetch_assoc();
 $FotoUser = $localFoto["path"];
 
 // Verifica se o usuario já enviou foto
-print_r(nl2br($FotoUser.PHP_EOL));
 if($FotoUser == ""){
     $FotoUser = "../Fotos_perfil/avatars.gif";
 }
@@ -82,16 +81,19 @@ if($FotoUser == ""){
             <img class="img" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="">
                 <input type="file" name="arquivo" id="arquivo" style="display: none;" onchange="this.form.submit()">
-                <label for="arquivo" name="arquivo" type="submit">Alterar foto</label>
-                <!-- <button name="upload" type="submit" display="display : none">enviar</button> -->
+                <label class="Label" for="arquivo" name="arquivo" type="submit">Alterar foto</label>
+                <br>
+                <label class="Label">Sou doadora</label>
             </form>
-            <label class="Label" for="">Nome</label>
-            <p class="Parag">Fulano de tal</p>
-            <label class="Label" for="">E-mail</label>
-            <p class="Parag">Fulano@gmail.com</p>
-            <label class="Label" for="">Endereço</label>
-            <p class="Parag">Rua de teste, número 21</p>
-            <p>
+            <div class="Label2">
+                <label>Nome</label>
+                <p class="Parag"><?php echo $_SESSION["nome"] ?></p>
+                <label>E-mail</label>
+                <p class="Parag">Fulano@gmail.com</p>
+                <label>Endereço</label>
+                <p class="Parag">Rua de teste, número 21</p>
+                <p>
+            </div>
                 <a href="../Controller/unLogout.php">Sair</a>
             </p>
         </div>
