@@ -1,0 +1,50 @@
+.Middle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Middle button {
+    background-color: #f083ba;
+    color: #FFF;
+    font-size: medium;
+    margin: 5px 0; /* Espaçamento entre os botões */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.IdiomaContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#idiomaOptions {
+    display: none;
+    position: absolute;
+    left: 100%; /* Posiciona as opções ao lado do botão */
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #000;
+    z-index: 1;
+}
+
+#idiomaOptions button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+
+#idiomaOptions button:hover {
+    background-color: #f1f1f1;
+}
+
+.hidden {
+    display: none;
+}
