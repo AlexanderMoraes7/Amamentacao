@@ -19,7 +19,31 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
-            <!-- Conteúdo da seção do meio -->
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome">
+            <label for="Endereco">Endereço:</label>
+            <input type="text" name="Endereco">
+            <label for="Amamenta">Amamenta a quanto tempo? (Meses)</label>
+            <input type="number" name="Amamenta">
+            <div class="Medicamento">
+                <label for="Medicamento">Faz uso de algum medicamento?</label>
+                <input type="radio" id="Sim" name="Medicamento" value="sim" checked />
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Nao" name="Medicamento" value="nao" />
+                <label for="Nao">Não</label>
+                <label for="Medicamento">(Se sim, qual?)</label>
+                <input type="text" name="Medicamento">
+            </div>
+            <div class="Cronica">
+                <label for="Cronica">Possui alguma doença crônica?</label>
+                <input type="radio" id="Sim" name="Cronica" value="sim" checked />
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Nao" name="Cronica" value="nao" />
+                <label for="Nao">Não</label>
+            </div>
+            <label for="Producao">Avalie a sua produção de leite:</label>
+            <input type="text" name="Producao">
+            <button type="submit">Enviar</button>
         </div>
         <?php echo $Bottom ?>
     </div>

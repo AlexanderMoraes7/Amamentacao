@@ -1,7 +1,3 @@
-/* .Container{
-    justify-content: unset !important; /* Distribui espaço entre Middle e Bottom
-} */
-
 .Middle{
     display: flex;
     flex: 1;
