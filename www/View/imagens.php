@@ -55,6 +55,12 @@ switch ($currentPage) {
         $Info = "../images/icons8-about-64-white.png";
         $Subtitulo = "Mitos e verdades";
         break;
+    case "notificacoes.php":
+        $Subtitulo = "Notificações";
+        break;
+    case "privacidade.php":
+        $Subtitulo = "Privacidade";
+        break;
 }
 
 

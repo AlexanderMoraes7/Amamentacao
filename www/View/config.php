@@ -25,8 +25,8 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
                     Português
                 </button>
             </div>
-            <a href=""><button>Notificações</button></a>
-            <a href=""><button>Privacidade</button></a>
+            <a href="notificacoes.php"><button>Notificações</button></a>
+            <a href="privacidade.php"><button>Privacidade</button></a>
             <a class="ConfigSistema" href="configsistema.php"><button>Configuração do sistema</button></a>
             <a href="../Controller/unLogout.php"><button>Sair</button></a>
         </div>
