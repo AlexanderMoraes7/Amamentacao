@@ -30,9 +30,8 @@ if(isset($_FILES["arquivo"])){
         $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
         $localFoto = $BuscaFoto->fetch_assoc();
         unlink($localFoto["path"]);
-
-        // deletar a foto anterior na pasta local
         $enviado = move_uploaded_file($arquivo["tmp_name"], $pasta . $nomeArquivo . "." . $extensao);
+        
         $path = $pasta . $nomeArquivo . "." . $extensao;
 
         if($enviado){
@@ -43,7 +42,7 @@ if(isset($_FILES["arquivo"])){
         }
 
     } else {
-        die("Erro ao enviar o arquivo(if de extenção)");
+        die("Erro ao enviar o arquivo");
     }
 }
 

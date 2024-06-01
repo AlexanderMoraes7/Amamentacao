@@ -2553,3 +2553,6 @@ Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2024-05-30T14:17:34.872429Z 0 [Note] Event Scheduler: Loaded 0 events
 2024-05-30T14:17:34.872429Z 0 [Note] C:\Python\Amamentacao\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
 Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-30T16:08:05.841688Z 177 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-30T18:25:46.242751Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2256208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-30T22:03:42.952819Z 2131 [Note] Access denied for user 'root'@'localhost' (using password: NO)
