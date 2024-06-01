@@ -20,9 +20,9 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
+            <h3>Com base na sua localização,</h3>
+            <h3>confira as unidades mais próximas</h3>
             <div id="map"></div>
-	        <h5>com base na sua localização, confira as unidades mais próximas:</h5>
-            <p></p>
 
             <script>
                 var customLabel = {
