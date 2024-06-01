@@ -11,27 +11,52 @@ $Bell = "../images/icons8-bell-30.png";
 $Usuario = "../images/icons8-female-profile-100.png";
 
 $currentPage = basename($_SERVER['PHP_SELF']);
-if ($currentPage == "info.php") {
-    $Info = "../images/icons8-about-64-white.png";
-    $Subtitulo = "Infomações";
-} else if ($currentPage == "sejadoadora.php") {
-    $Doadora = "../images/icons8-love-64-white.png";
-    $Subtitulo = "Formulário";
-} else if ($currentPage == 'paginaprincipal.php') {
-    $Feed = "../images/icons8-home-64-white.png";
-    $Subtitulo = "Apoio á Amamentação";
-} else if ($currentPage == "unidades.php") {
-    $Unidade = "../images/icons8-hospital-64-white.png";
-    $Subtitulo = "Unidades";
-} else if ($currentPage == "perfil.php") {
-    $Perfil = "../images/icons8-user-64-white.png";
-    $Subtitulo = "Perfil";
-} else if ($currentPage == "config.php") {
-    $Setting = "../images/icons8-settings-30-margenta-amarelo.png";
-    $Subtitulo = "Configuração";
-} else if ($currentPage == "configsistema.php") {
-    $Subtitulo = "Configuração do sistema";
+switch ($currentPage) {
+    case "info.php":
+        $Info = "../images/icons8-about-64-white.png";
+        $Subtitulo = "Infomações";
+        break;
+    case "sejadoadora.php":
+        $Doadora = "../images/icons8-love-64-white.png";
+        $Subtitulo = "Formulário";
+        break;
+    case 'paginaprincipal.php':
+        $Feed = "../images/icons8-home-64-white.png";
+        $Subtitulo = "Apoio á Amamentação";
+        break;
+    case "unidades.php":
+        $Unidade = "../images/icons8-hospital-64-white.png";
+        $Subtitulo = "Unidades";
+        break;
+    case "perfil.php":
+        $Perfil = "../images/icons8-user-64-white.png";
+        $Subtitulo = "Perfil";
+        break;
+    case "config.php":
+        $Setting = "../images/icons8-settings-30-margenta-amarelo.png";
+        $Subtitulo = "Configuração";
+        break;
+    case "configsistema.php":
+        $Subtitulo = "Configuração do sistema";
+        break;
+    case "higiene_cuidados.php":
+        $Info = "../images/icons8-about-64-white.png";
+        $Subtitulo = "Higiene e cuidados pessoais";
+        break;
+    case "info_banco_leite.php":
+        $Info = "../images/icons8-about-64-white.png";
+        $Subtitulo = "Informações sobre o banco de leite";
+        break;
+    case "info_cientifica.php":
+        $Info = "../images/icons8-about-64-white.png";
+        $Subtitulo = "Informações científicas";
+        break;
+    case "mitos_verdades.php":
+        $Info = "../images/icons8-about-64-white.png";
+        $Subtitulo = "Mitos e verdades";
+        break;
 }
+
 
 $Topo = 
 '<div class="Top">

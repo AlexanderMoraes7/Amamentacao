@@ -19,7 +19,46 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
     <div class="Container">
         <?php echo $Topo ?>
         <div class="Middle">
-            <!-- Conteúdo da seção do meio -->
+            <div class="First">
+                <div class="First1">
+                    <img src="../images/mommy-1.png" alt="Mãe amamentando">
+                    <a href="mitos_verdades.php">
+                        <button>
+                            Mitos e verdades <br>
+                            sobre a amamentação
+                        </button>
+                    </a>
+                </div>
+                <div class="First2">
+                    <img src="../images/Technology-1.png" alt="">
+                    <a href="info_cientifica.php">
+                        <Button>
+                            Informaçõess <br>
+                            científicas
+                        </Button>
+                    </a>
+                </div>
+            </div>
+            <div class="Second">
+                <div class="Second1">
+                    <img src="../images/baby-1.png" alt="Bebê mamando">
+                    <a href="higiene_cuidados.php">
+                        <button>
+                            Higiene e <br>
+                            cuidados
+                        </button>
+                    </a>
+                </div>
+                <div class="Second2">
+                    <img src="../images/giving-baby-bottle-1.png" alt="">
+                    <a href="info_banco_leite.php">
+                        <button>
+                            Informações <br>
+                            sobre banco de leite
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
         <?php echo $Bottom ?>
     </div>
