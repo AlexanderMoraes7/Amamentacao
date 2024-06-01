@@ -20,12 +20,10 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
         <?php echo $Topo ?>
         <div class="Middle">
         <div class="IdiomaContainer">
-                <button id="idiomaButton">Idioma</button>
-                <div id="idiomaOptions" class="hidden">
-                    <button onclick="changeLanguage('pt')">Português</button>
-                    <button onclick="changeLanguage('en')">Inglês</button>
-                    <button onclick="changeLanguage('es')">Espanhol</button>
-                </div>
+                <button>
+                    Idioma <br>
+                    Português
+                </button>
             </div>
             <a href=""><button>Notificações</button></a>
             <a href=""><button>Privacidade</button></a>
@@ -34,20 +32,5 @@ $oProtect = new Procect();// instância para permitir o acesso somente a quem es
         </div>
         <?php echo $Bottom ?>
     </div>
-    <script>
-        document.getElementById('idiomaButton').addEventListener('click', function() {
-            var idiomaOptions = document.getElementById('idiomaOptions');
-            if (idiomaOptions.classList.contains('hidden')) {
-                idiomaOptions.classList.remove('hidden');
-            } else {
-                idiomaOptions.classList.add('hidden');
-            }
-        });
-
-        function changeLanguage(lang) {
-            alert('Idioma alterado para: ' + lang);
-            // Aqui você pode adicionar código para realmente mudar o idioma
-        }
-    </script>
 </body>
 </html>
