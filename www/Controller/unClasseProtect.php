@@ -1,5 +1,7 @@
 <?php
 
+include_once("../View/imagens.php");
+
 class Procect{
     public function __construct(){
         if(!isset($_SESSION)){
@@ -7,7 +9,11 @@ class Procect{
         }
 
         if(!isset($_SESSION["nome"])) {
-            die("Você não está autorizado a acessar essa página.<p><a href=\"index.html\">Logar</a></p>");
+            global $Mensagem; // Torna a variável global
+            $Mensagem = "Você não está autorizado a acessar essa página.";
+            header("Location:../View/index.html");
+            exit();
+            // die("Você não está autorizado a acessar essa página.<p><a href=\"index.html\">Logar</a></p>");
         }
     }
 }

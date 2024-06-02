@@ -9,6 +9,7 @@ $Subtitulo = "";
 $Setting = "../images/icons8-settings-30.png";
 $Bell = "../images/icons8-bell-30.png";
 $Usuario = "../images/icons8-female-profile-100.png";
+$Mensagem = "";
 
 $currentPage = basename($_SERVER['PHP_SELF']);
 switch ($currentPage) {
