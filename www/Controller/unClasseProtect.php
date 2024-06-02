@@ -13,7 +13,6 @@ class Procect{
             $Mensagem = "Você não está autorizado a acessar essa página.";
             header("Location:../View/index.html");
             exit();
-            // die("Você não está autorizado a acessar essa página.<p><a href=\"index.html\">Logar</a></p>");
         }
     }
 }
