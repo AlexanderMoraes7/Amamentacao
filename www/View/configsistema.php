@@ -1,7 +1,7 @@
 <?php
 include_once("../Controller/unClasseProtect.php");
 include_once("../css/Estilos.php");
-include_once("imagens.php");
+include_once("variaveis.php");
 
 $oProtect = new Protect();// instância para permitir o acesso somente a quem estiver logado
 ?>

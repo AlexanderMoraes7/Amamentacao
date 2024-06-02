@@ -1,5 +1,7 @@
 <?php
-require('../Model/unClasseConfig.php');
+include_once("../Model/unClasseConfig.php");
+include_once("../View/variaveis.php");
+
 
 $nome=$mysqli->real_escape_string($_POST["nome"]);
 $sobrenome=$mysqli->real_escape_string($_POST["sobrenome"]);

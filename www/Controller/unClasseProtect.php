@@ -1,5 +1,5 @@
 <?php
-include_once("../View/imagens.php");
+include_once("../View/variaveis.php");
 
 class Protect{
     public function __construct(){

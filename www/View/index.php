@@ -1,5 +1,5 @@
 <?php
-include_once("imagens.php");
+include_once("variaveis.php");
 include_once("../Controller/unClasseProtect.php");
 
 // Verifica se a mensagem está definida na query string
@@ -52,7 +52,7 @@ if (isset($_GET['msg'])) {
                     <label>Não possui conta?</label>
                 </div>
                 <div>
-                    <a href="cadastro.html">Crie aqui</a>
+                    <a href="cadastro.php">Crie aqui</a>
                 </div>
             </div>
             <script>
