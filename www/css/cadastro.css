@@ -69,10 +69,16 @@ div i {
     cursor: pointer;
     position: absolute;
     right: 3%;
-    padding: 3% 0%;
+    padding: 1% 0;
     color: hsl(0, 0%, 32%);
 }
 
 p{
     text-align: end;
+}
+
+@media (min-width: 500px) { /* Maior ou igual a 500 pixels*/
+    div i {
+        padding: 2% 0;
+    }
 }
