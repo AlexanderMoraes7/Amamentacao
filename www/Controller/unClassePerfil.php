@@ -3,7 +3,7 @@
 include_once("../Controller/unClasseProtect.php");
 include_once("../Model/unClasseConfig.php");
 
-$oProtect = new Procect(); // instanciado para obter o id do usuário na sessão
+$oProtect = new Protect(); // instanciado para obter o id do usuário na sessão
 $id_usuario = $_SESSION["idusuario"];
 
 if(isset($_FILES["arquivo"])){

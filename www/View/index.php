@@ -1,3 +1,14 @@
+<?php
+include_once("imagens.php");
+include_once("../Controller/unClasseProtect.php");
+
+// Verifica se a mensagem está definida na query string
+if (isset($_GET['msg'])) {
+    $Mensagem = urldecode($_GET['msg']);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,6 +42,9 @@
                 </div>
                 <div class="Login">
                     <button type="submit" name="Login" value="Login">Login</button>
+                    <p>
+                        <?php echo !empty($Mensagem) ? $Mensagem : ''; ?>
+                    </p>
                 </div>
             </form>
             <div class="Text2">

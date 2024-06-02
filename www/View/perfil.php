@@ -6,7 +6,7 @@ include_once("../Model/unClasseConfig.php");
 include_once("../css/Estilos.php");
 include_once("imagens.php");
 
-$oProtect = new Procect(); // instância para permitir o acesso somente a quem estiver logado
+$oProtect = new Protect(); // instância para permitir o acesso somente a quem estiver logado
 $id_usuario = $_SESSION["idusuario"];
 
 // var_dump($_FILES["arquivo"]); // detalhes do arquivo
