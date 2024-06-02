@@ -34,7 +34,7 @@ if (isset($_GET['msg'])) {
             <img class="User" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="../Controller/unClassePerfil.php">
                 <input type="file" name="arquivo" id="arquivo" style="display: none;" onchange="this.form.submit()">
-                <label for="arquivo" name="arquivo" id="arquivo" type="submit">Alterar foto</label>
+                <label type="submit" for="arquivo" name="arquivo" id="arquivo">Alterar foto</label>
                 <br>
                 <label>Sou doadora</label>
             </form>
