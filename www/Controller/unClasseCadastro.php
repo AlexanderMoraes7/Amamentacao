@@ -2,7 +2,6 @@
 include_once("../Model/unClasseConfig.php");
 include_once("../View/variaveis.php");
 
-
 $nome       = $mysqli->real_escape_string($_POST["nome"]);
 $sobrenome  = $mysqli->real_escape_string($_POST["sobrenome"]);
 $email      = $mysqli->real_escape_string($_POST["email"]);
@@ -16,15 +15,25 @@ $email      = strtolower($email);
 
 try {
     if (strlen($nome) == 0) {
-        echo "Nome não pode ser vazio";
+        $Mensagem = "Nome não pode ser vazio";
+        header("Location: ../View/cadastro.php?msg=" . urldecode($Mensagem));
+        exit();
     } elseif (strlen($sobrenome) == 0) {
-        echo "Sobrenome não pode ser vazio";
+        $Mensagem = "Sobrenome não pode ser vazio";
+        header("Location: ../View/cadastro.php?msg=" . urldecode($Mensagem));
+        exit();
     } elseif (strlen($email) == 0) {
-        echo "E-mail não pode ser vazio";
+        $Mensagem = "E-mail não pode ser vazio";
+        header("Location: ../View/cadastro.php?msg=" . urldecode($Mensagem));
+        exit();
     } elseif ((strlen($senha1) == 0) or (strlen($senha2) == 0)) {
-        echo "Senha não pode ser vazia";
+        $Mensagem = "Senha não pode ser vazia";
+        header("Location: ../View/cadastro.php?msg=" . urldecode($Mensagem));
+        exit();
     } elseif ($senha1 <> $senha2){
-        echo "As senhas não são iguais. Digite novamente.";
+        $Mensagem = "As senhas não são iguais. Digite novamente.";
+        header("Location: ../View/cadastro.php?msg=" . urldecode($Mensagem));
+        exit();
     } else{
         $senha1 = password_hash($senha1, PASSWORD_DEFAULT);
         

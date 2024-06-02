@@ -1,3 +1,13 @@
+<?php
+
+include_once("variaveis.php");
+
+if (isset($_GET['msg'])) {
+    $Mensagem = urldecode($_GET['msg']);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -27,10 +37,13 @@
                 <input type="password" name="senha2" id="senha2">
                 <i class="fa-solid fa-eye-slash" id="eye2" onclick="mostrarSegunda()"></i>
             </div>
-            <label class="Erro"></label>
+            <div class="Button">
             <h4></h4>
+            <a href="index.php"><button type="button">Voltar</button></a>
             <button type="submit">Criar conta</button>
+            </div>
         </form>
+        <p><?php echo $Mensagem ?></p>
     </div>
     <script>
         function mostrarPrimeira(){
