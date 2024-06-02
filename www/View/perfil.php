@@ -7,24 +7,10 @@ include_once("../css/Estilos.php");
 include_once("variaveis.php");
 
 $oProtect = new Protect(); // instância para permitir o acesso somente a quem estiver logado
-$id_usuario = $_SESSION["idusuario"];
 
-// var_dump($_FILES["arquivo"]); // detalhes do arquivo
-// print_r(nl2br($extensao.PHP_EOL)); // printa e pula uma linha
-
-// Buscar local da foto no banco
-$BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
-$localFoto = $BuscaFoto->fetch_assoc();
-$FotoUser = $localFoto["path"];
-
-// Verifica se o usuario já enviou foto
-if($FotoUser == ""){
-    $FotoUser = "../Fotos_perfil/avatars.gif";
-}
-
-// Verifica endereço do usuario
-if ($endereco = " "){
-    $endereco = "Nenhum endereço cadastrado";
+// Verifica se a mensagem está definida na query string
+if (isset($_GET['msg'])) {
+    $Mensagem = urldecode($_GET['msg']);
 }
 
 ?>
@@ -42,12 +28,13 @@ if ($endereco = " "){
 <body>
     <div class="Container">
         <?php echo $Topo ?>
+        <p> <?php echo $Mensagem; ?></p>
         <div class="Middle">
             <div class="Label1">
-            <img src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
+            <img class="User" src=<?php echo $FotoUser; ?> alt="Foto de perfil do usuário">
             <form method="post" enctype="multipart/form-data" action="../Controller/unClassePerfil.php">
                 <input type="file" name="arquivo" id="arquivo" style="display: none;" onchange="this.form.submit()">
-                <label for="arquivo" name="arquivo" type="submit">Alterar foto</label>
+                <label for="arquivo" name="arquivo" id="arquivo" type="submit">Alterar foto</label>
                 <br>
                 <label>Sou doadora</label>
             </form>

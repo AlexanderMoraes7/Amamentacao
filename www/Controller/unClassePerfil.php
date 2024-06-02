@@ -36,13 +36,19 @@ if(isset($_FILES["arquivo"])){
 
         if($enviado){
             $mysqli->query("UPDATE fotos_perfil SET nome = '$nomeArquivo', data_upload ='$time', path = '$path' WHERE idusuario = $id_usuario") or die($mysqli->error);
-            echo "foto enviada!";
+            $Mensagem = "Foto alterada";
+            header("Location: ../View/perfil.php?msg=" . urldecode($Mensagem));
+            exit();
         } else {
-            die("Falha ao enviar a foto!");
+            $Mensagem = "Falha ao enviar a foto!";
+            header("Location: ../View/perfil.php?msg=" . urldecode($Mensagem));
+            exit();
         }
 
     } else {
-        die("Erro ao enviar o arquivo");
+        $Mensagem = "Erro ao enviar o arquivo";
+        header("Location: ../View/perfil.php?msg=" . urldecode($Mensagem));
+        exit();
     }
 }
 
@@ -53,3 +59,13 @@ if(isset($_FILES["arquivo"])){
 $BuscaFoto = $mysqli->query("SELECT path FROM fotos_perfil where idusuario = '$id_usuario'") or die($mysqli->error);
 $localFoto = $BuscaFoto->fetch_assoc();
 $FotoUser = $localFoto["path"];
+
+// Verifica se o usuario já enviou foto
+if($FotoUser == ""){
+    $FotoUser = "../Fotos_perfil/avatars.gif";
+}
+
+// Verifica endereço do usuario
+if ($endereco = " "){
+    $endereco = "Nenhum endereço cadastrado";
+}
