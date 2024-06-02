@@ -26,7 +26,7 @@
                         <input type="checkbox" name="lembrar" id="lembrar"><label for="lembrar">Lembre-se dessa conta</label>
                     </div>
                 <div>
-                    <a href="recuperacao.html">Esqueceu a senha?</a>
+                    <a href="recuperacao.php">Esqueceu a senha?</a>
                 </div>
                 </div>
                 <div class="Login">
