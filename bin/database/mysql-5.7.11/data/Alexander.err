@@ -2598,3 +2598,48 @@ Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2024-06-01T14:47:10.821923Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
 2024-06-01T16:41:51.171338Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 924355ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-02T11:39:02.076822Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-02T11:39:02.076822Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-06-02T11:39:02.076822Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-06-02T11:39:02.076822Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-06-02T11:39:02.076822Z 0 [Note] C:\Python\Amamentacao\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 6180 ...
+2024-06-02T11:39:02.139322Z 0 [ERROR] Can't open shared library 'C:\Python\Amamentacao\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2024-06-02T11:39:02.139322Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2024-06-02T11:39:02.154942Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-02T11:39:02.154942Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-02T11:39:02.154942Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-02T11:39:02.154942Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-06-02T11:39:02.154942Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-02T11:39:02.170568Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-02T11:39:02.279948Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-02T11:39:02.295577Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-02T11:39:02.373691Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-02T11:39:02.373691Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 4235334
+2024-06-02T11:39:02.373691Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 4235343
+2024-06-02T11:39:02.373691Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 4235343
+2024-06-02T11:39:02.389317Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-02T11:39:02.389317Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-02T11:39:03.076816Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-02T11:39:03.076816Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-02T11:39:03.092441Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-02T11:39:03.123690Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-06-02T11:39:03.139317Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-02T11:39:03.139317Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-02T11:39:03.139317Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-02T11:39:03.217443Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4235343
+2024-06-02T11:39:03.217443Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-02T11:39:03.217443Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Python\Amamentacao\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2024-06-02T11:39:03.233069Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-06-02T11:39:03.248693Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-02T11:39:03.248693Z 0 [Note] IPv6 is available.
+2024-06-02T11:39:03.248693Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240602  8:39:03
+2024-06-02T11:39:03.248693Z 0 [Note]   - '::' resolves to '::';
+2024-06-02T11:39:03.248693Z 0 [Note] Server socket created on IP: '::'.
+2024-06-02T11:39:03.483067Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-06-02T11:39:03.498694Z 0 [Note] C:\Python\Amamentacao\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-06-02T12:46:33.477916Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2494980ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-02T14:07:43.172934Z 52 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-06-02T17:14:06.569902Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2170244ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-02T20:41:00.301269Z 1668 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-06-02T21:30:53.975191Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1135505ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

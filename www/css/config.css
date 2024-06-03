@@ -11,8 +11,13 @@
     color: #FFF;
     font-size: medium;
     margin: 5px 0; /* Espaçamento entre os botões */
-    padding: 17px;
+    padding: 13px;
     margin: 10px;
     border-radius: 10px;
     width: 300px;
+    cursor: pointer;
+}
+
+.Delete{
+    display: none;
 }
